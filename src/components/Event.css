@@ -1,0 +1,50 @@
+.event-item {
+  background: rgb(0, 0, 0);
+  width: 40%;
+  height: 300px;
+  margin: 10px;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.event-title {
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+}
+
+.event-description {
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.event-type {
+  font-weight: bold;
+  font-size: 1em;
+  color: #d30f6b;
+}
+
+.event-mode {
+  font-weight: bold;
+  font-size: 1em;
+  color: #10a0da;
+}
+
+.event-date {
+  font-weight: bold;
+  font-size: 1em;
+  color: #f8f673;
+}
+
+.test {
+  background-color: rgb(192, 192, 192);
+  height: 1px;
+}
+
+@media screen and (max-width: 1024px) {
+  .event-item {
+    width: 80%;
+    padding: 2%;
+    height: auto;
+  }
+}
