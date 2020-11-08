@@ -15,13 +15,13 @@ export const headerObjOne = {
   };
 
   export const headerObjFive = {
-    headTitle: "EB20"
+    headTitle: "EB 2020"
   };
 
   export const headerObjSix = {
-    headTitle: "EB19"
+    headTitle: "EB 2019"
   };
 
   export const headerObjSeven = {
-    headTitle: "EB18"
+    headTitle: "EB 2018"
   };

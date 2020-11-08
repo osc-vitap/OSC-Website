@@ -55,13 +55,13 @@
   font-family: "Inter", "sans-serif";
   font-weight: bold;
   font-size: 4rem;
-  margin-left: 22.5%;
+  margin-left: 22%;
   margin-top: 1%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
   .page-title {
-    font-size: 4rem;
+    font-size: 1.5rem;
     margin-left: 1.5rem;
     margin-top: 1%;
   }
