@@ -1,1 +1,26 @@
+.event-container {
+  margin-left: 17.5%;
+  margin-right: 25%;
+}
 
+.event-tagline {
+  font-weight: 900;
+  font-size: 120px;
+  text-align: left;
+}
+
+.text-highlight {
+  color: #cf0754;
+}
+
+@media screen and (max-width: 600px) {
+  .event-container {
+    margin-left: 6%;
+    margin-right: 25%;
+  }
+  .event-tagline {
+    font-weight: 900;
+    font-size: 50px;
+    text-align: left;
+  }
+}

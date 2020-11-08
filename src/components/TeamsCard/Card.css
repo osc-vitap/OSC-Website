@@ -1,0 +1,42 @@
+.teams-container {
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.teams-box {
+  background-color: #000000;
+  height: 160px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.teams-title {
+  color: #ffffff;
+  font-size: 40px;
+  margin-left: 10px;
+  padding-top: 6%;
+}
+
+.teams-subtitle {
+  color: #ffffff;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .teams-box {
+    height: 180px;
+  }
+
+  .teams-title {
+    font-size: 25px;
+    padding-top: 12%;
+  }
+}

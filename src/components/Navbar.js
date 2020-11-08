@@ -55,6 +55,11 @@ function Navbar() {
                                 Events
                             </Link>
                         </li>
+                        <li className="nav-item" onClick={closeMobileMenu}>
+                            <Link to='/team' className='nav-links'>
+                                Team
+                            </Link>
+                        </li>
                         <li className="nav-btn">
                             {button ? (
                                 <Link to='/wios' className="btn-link">
