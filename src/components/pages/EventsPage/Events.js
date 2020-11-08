@@ -8,6 +8,9 @@ function Events() {
   return (
     <>
       <Header {...headerObjOne } />
+      <div>
+      Design efficiency begins with a prototype.
+      </div>
       <CurrentEvents />
       <PastEvents />
     </>

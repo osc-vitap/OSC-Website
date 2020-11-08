@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios';
-import Event from './Event';
+import PEvent from './PEvent';
 import './PastEvents.css';
 
 const api = axios.create({
@@ -14,7 +14,7 @@ var year_now = new Date().getFullYear();
 class PastEvents extends React.Component {
 
     state = {
-        current_events: []
+        past_events: [],
     }
 
     constructor(){
@@ -25,7 +25,7 @@ class PastEvents extends React.Component {
     getEvents = async () => {
         try{
             let data = await api.get('/').then(({ data }) => data);
-            this.setState({ current_events: data})
+            this.setState({ past_events: data.sort((a,b) => new Date(b.date) - new Date(a.date)) })
             console.log("Date:" + date_now + " Month:" + month_now + " Year:" + year_now);
         }catch(err){
             console.log(err);
@@ -38,8 +38,8 @@ class PastEvents extends React.Component {
             <div>
                 <h1 className="p-event-title">Past Events</h1>
                 <div className='events'>
-                {this.state.current_events.map(current_event => (
-                    <Event event={current_event} />
+                {this.state.past_events.map(past_event => (
+                    <PEvent event={past_event} />
                 ))}
                 </div>
             </div>
