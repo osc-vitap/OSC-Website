@@ -25,3 +25,7 @@ export const headerObjOne = {
   export const headerObjSeven = {
     headTitle: "EB 2018"
   };
+
+  export const headerObjEight = {
+    headTitle: "WiOS EB"
+  };

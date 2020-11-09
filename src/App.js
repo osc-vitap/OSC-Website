@@ -9,6 +9,7 @@ import TeamPage from "./components/pages/Team/Team";
 import Team18 from "./components/pages/Team/Team18";
 import Team19 from "./components/pages/Team/Team19";
 import Team20 from "./components/pages/Team/Team20";
+import TeamWIOS from './components/pages/Team/TeamWIOS';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/team2018" exact component={Team18}/>
         <Route path="/team2019" exact component={Team19}/>
         <Route path="/team2020" exact component={Team20}/>
+        <Route path="/wiosteam2020" exact component={TeamWIOS}/>
       </Switch>
       <Footer />
     </Router>

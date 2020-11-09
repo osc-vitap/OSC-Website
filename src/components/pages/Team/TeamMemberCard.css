@@ -94,6 +94,32 @@
   margin-bottom: 40px;
 }
 
+.board-category5 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 9, 1) 35%,
+    rgba(255, 0, 144, 1) 100%
+  );
+  height: 200px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.board-category6 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 33, 121, 1) 35%,
+    rgba(0, 204, 255, 1) 100%
+  );
+  height: 200px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
 .category-title {
   font-family: "Inter", "sans-serif";
   font-weight: bold;
