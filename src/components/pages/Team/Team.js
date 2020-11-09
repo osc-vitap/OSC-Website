@@ -4,6 +4,8 @@ import Header from "../../Header/Header";
 import { headerObjFour } from "../../Header/HeaderData";
 import TeamsCard from "./../../TeamsCard/Card";
 
+import "./Team.css";
+
 function Team() {
   return (
     <>

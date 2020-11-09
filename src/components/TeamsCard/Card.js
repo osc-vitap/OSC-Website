@@ -11,6 +11,10 @@ function Card() {
                 <Link to="/team2020"><h2 className="teams-subtitle">Explore &gt;</h2></Link>
             </div>
             <div className="teams-box">
+                <h2 className="teams-title">Executive Board 2020: WiOS</h2>
+                <Link to="/wiosteam2020"><h2 className="teams-subtitle">Explore &gt;</h2></Link>
+            </div>
+            <div className="teams-box">
                 <h2 className="teams-title">Executive Board 2019 (Archive)</h2>
                 <Link to="/team2019"><h2 className="teams-subtitle">Explore &gt;</h2></Link>
             </div>

@@ -1,3 +1,12 @@
+.mcard-box {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .mcard-container {
   display: flex;
   flex-direction: column;
@@ -5,6 +14,7 @@
   height: 390px;
   width: 240px;
   margin-bottom: 10%;
+  margin-right: 1em;
 }
 
 .mcard-image {
@@ -26,11 +36,13 @@
   text-align: center;
   font-weight: bold;
   font-size: 1em;
+  height: 40px;
 }
 
 .mcard-flex {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
 }
 
 .b1 {
@@ -55,4 +67,44 @@
   background: rgb(91, 240, 111);
   padding: 5px;
   width: 40px;
+}
+
+/* Team Category Head */
+.board-category1 {
+  background-color: #ffd35b;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.board-category2 {
+  background-color: #6eff75;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.board-category3 {
+  background-color: #5bb0ff;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.board-category4 {
+  background-color: #ff5b71;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.category-title {
+  font-family: "Inter", "sans-serif";
+  font-weight: bold;
+  font-size: 4rem;
+  margin-left: 17.5%;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .category-title {
+    font-size: 3rem;
+    margin-left: 1.5rem;
+  }
 }
