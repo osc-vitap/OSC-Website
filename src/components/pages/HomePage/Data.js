@@ -31,8 +31,8 @@ export const homeObjOne = {
     topLine: 'Join Us!',
     headline: 'Let\'s go on a technical adventure.',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-     buttonLabel: 'Get Involved',
+      'We cover a wide variety of activities like tech summits, hackathons, tech talks and a lot more!',
+     buttonLabel: 'Join Us Now!',
     imgStart: '',
     img: 'images/test2.png',
     alt: 'Event Image'
