@@ -7,14 +7,15 @@ import {
   FaInstagram,
   FaYoutube,
   FaLinkedin,
-  FaDiscord
+  FaDiscord,
+  FaGithub
 } from 'react-icons/fa';
 import OSCLogo from '../../../images/osclogo.png'
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join our exclusive membership to receive the latest news and trends
         </p>
@@ -32,19 +33,19 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/'>EB Openings</Link>
+            <Link to='/'>Gallery</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
+            <Link to='/'>GitHub Organization</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
@@ -132,6 +133,16 @@ function Footer() {
               aria-label='Discord'
             >
               <FaDiscord />
+            </Link>
+            <Link
+              className='social-icon-link'
+              to={
+                '//github.com/Open-Source-Community-VIT-AP/'
+              }
+              target='_blank'
+              aria-label='Github'
+            >
+              <FaGithub />
             </Link>
           </div>
         </div>
