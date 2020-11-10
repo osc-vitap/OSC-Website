@@ -7,7 +7,7 @@ export const homeObjOne = {
       'We are currently working in virtual mode. Feel free to join us on the server!',
     buttonLabel: 'Join us on Discord',
     imgStart: '',
-    img: 'images/test2.png',
+    img: 'images/test4.png',
     alt: 'Event Image'
   };
   
@@ -20,7 +20,7 @@ export const homeObjOne = {
       "Developers and open source enthusiasts from across the globe address our members during our events.",
     buttonLabel: 'Get Involved',
     imgStart: 'start',
-    img: 'images/test2.png',
+    img: 'images/test3.png',
     alt: 'Event Image'
   };
   
@@ -34,6 +34,6 @@ export const homeObjOne = {
       'We cover a wide variety of activities like tech summits, hackathons, tech talks and a lot more!',
      buttonLabel: 'Join Us Now!',
     imgStart: '',
-    img: 'images/test2.png',
+    img: 'images/test4.png',
     alt: 'Event Image'
   };
