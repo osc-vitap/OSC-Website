@@ -8,9 +8,8 @@ function Home() {
   return (
     <>
       <HeroSection {...homeObjOne} />
-      <HeroSection {...homeObjThree} />
       <HeroSection {...homeObjTwo} />
-      <HeroSection {...homeObjFour} />
+      <HeroSection {...homeObjThree} />
       <Header {...headerObjThree} />
     </>
   );

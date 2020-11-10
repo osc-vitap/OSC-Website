@@ -43,7 +43,10 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to='/sign-up'>
+                <Link to={
+                '//discord.gg/2qXPW7NVvN'
+              }
+              target='_blank'>
                   <Button buttonSize='btn--wide' buttonColor='blue'>
                     {buttonLabel}
                   </Button>

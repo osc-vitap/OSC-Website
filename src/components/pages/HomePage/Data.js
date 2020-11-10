@@ -8,47 +8,32 @@ export const homeObjOne = {
     buttonLabel: 'Join us on Discord',
     imgStart: '',
     img: 'images/test2.png',
-    alt: 'Credit Card'
+    alt: 'Event Image'
   };
   
   export const homeObjTwo = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: '100% SECURE',
-    headline: 'Stay protected 24/7 anywhere anytime',
-    description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-    buttonLabel: 'Learn More',
-    imgStart: '',
-    img: 'images/test2.png',
-    alt: 'Vault'
-  };
-  
-  export const homeObjThree = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'EASY SETUP',
-    headline: 'Super fast and simple onboarding process',
+    headline: 'Events with international exposure.',
     description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
+      "Developers and open source enthusiasts from across the globe address our members during our events.",
+    buttonLabel: 'Get Involved',
     imgStart: 'start',
     img: 'images/test2.png',
-    alt: 'Vault'
+    alt: 'Event Image'
   };
   
-  export const homeObjFour = {
+  export const homeObjThree = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'DATA ANALYTICS',
-    headline: 'Every transaction is stored on our secure cloud database',
+    topLine: 'Join Us!',
+    headline: 'Let\'s go on a technical adventure.',
     description:
-      'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-    buttonLabel: 'Sign Up Now',
-    imgStart: 'start',
+      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+     buttonLabel: 'Get Involved',
+    imgStart: '',
     img: 'images/test2.png',
-    alt: 'Vault'
+    alt: 'Event Image'
   };
