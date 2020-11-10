@@ -3,8 +3,8 @@ import Header from "../../Header/Header";
 import { headerObjSeven } from "../../Header/HeaderData";
 import CC from "./../../../images/team/profasish.jpg";
 import Pres from "./../../../images/team/akhil.png";
-import Tech from "./../../../images/team/ph.png";
-import Director from "./../../../images/team/ph.png";
+import Tech from "./../../../images/team/agni.png";
+import Director from "./../../../images/team/soumya.png";
 import PR from "./../../../images/team/eb2.png";
 
 function Team18() {

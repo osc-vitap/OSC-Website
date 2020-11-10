@@ -43,6 +43,8 @@ function Team20() {
                         <div className="b4"></div>
                     </div>
                 </div>
+            </div>
+            <div className="mcard-box">
                 <div className="mcard-container">
                     <img src={CL} className="mcard-image" alt="ad-img"></img>
                     <div className="mcard-name">Krishna Akhil A.</div>

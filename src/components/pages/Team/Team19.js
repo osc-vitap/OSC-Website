@@ -3,10 +3,10 @@ import Header from "../../Header/Header";
 import { headerObjSix } from "../../Header/HeaderData";
 import CC from "./../../../images/team/profasish.jpg";
 import CL from "./../../../images/team/akhil.png";
-import CCC1 from "./../../../images/team/ph.png";
-import CCC2 from "./../../../images/team/ph.png";
-import CCC3 from "./../../../images/team/ph.png";
-import CCC4 from "./../../../images/team/ph.png";
+import CCC1 from "./../../../images/team/2d.png";
+import CCC2 from "./../../../images/team/agni.png";
+import CCC3 from "./../../../images/team/ritwik.png";
+import CCC4 from "./../../../images/team/priyam.png";
 import Pres from "./../../../images/team/akhilcl.png";
 import Chair from "./../../../images/team/eb2.png";
 import Director from "./../../../images/team/eb4.png";
@@ -37,6 +37,8 @@ function Team19() {
                         <div className="b4"></div>
                     </div>
                 </div>
+            </div>
+            <div className="mcard-box">
                 <div className="mcard-container">
                     <img src={CL} className="mcard-image" alt="ad-img"></img>
                     <div className="mcard-name">Akhil Surendran</div>

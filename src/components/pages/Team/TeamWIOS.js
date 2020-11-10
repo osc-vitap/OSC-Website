@@ -2,7 +2,7 @@ import React from 'react';
 import Header from "../../Header/Header";
 import { headerObjEight } from "../../Header/HeaderData";
 import CC from "./../../../images/team/profasish.jpg";
-import Pres from "./../../../images/team/ph.png";
+import Pres from "./../../../images/team/sukhmani.png";
 import VP from "./../../../images/team/susmita.png";
 import Director from "./../../../images/team/ph.png";
 import Chair from "./../../../images/team/eb10.png";
