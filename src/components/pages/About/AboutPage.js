@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "../../Header/Header";
 import { headerObjTwo } from "../../Header/HeaderData";
 import CCImage from "../../../images/about/profasish.JPG";
+import MMCP from "../../../images/about/mozcc.png";
 import { motion } from "framer-motion";
 
 import "./About.css";
@@ -66,6 +67,9 @@ function AboutPage() {
       </div> */}
       <div className="about-section1">
         <div className="about-section-title">Official Partner.</div>
+      </div>
+      <div className="partner-image-container">
+        <img src={MMCP} className="partner-img"></img>
       </div>
     </>
   );
