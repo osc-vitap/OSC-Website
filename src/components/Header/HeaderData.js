@@ -53,3 +53,7 @@ export const headerObjOne = {
   export const headerObjFourteen = {
     headTitle: "EB Elections"
   };
+
+  export const headerObjFifteen = {
+    headTitle: "WiOS"
+  };

@@ -60,13 +60,18 @@ function Navbar() {
                                 Team
                             </Link>
                         </li>
+                        <li className="nav-item" onClick={closeMobileMenu}>
+                            <Link to='/gallery' className='nav-links'>
+                                Gallery
+                            </Link>
+                        </li>
                         <li className="nav-btn">
                             {button ? (
-                                <Link to='/wios' className="btn-link">
+                                <Link to='/wioshome' className="btn-link">
                                     <Button buttonStyle='btn--outline'>Women in Open Source</Button>
                                 </Link>
                             ): (
-                                <Link to='/wios' className='btn-link' onClick={closeMobileMenu}>
+                                <Link to='/wioshome' className='btn-link' onClick={closeMobileMenu}>
                                     <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
                                         Women in Open Source
                                     </Button>

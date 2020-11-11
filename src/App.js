@@ -16,6 +16,7 @@ import Gallery from './components/pages/Gallery/Gallery';
 import ContactUs from './components/pages/Contact/ContactUs';
 import Sponsorships from './components/pages/Sponsorships/Sponsorships';
 import EBElections from './components/pages/EBElections/EBElections';
+import Wios from "./components/pages/WIOS/Wios";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/contact" exact component={ContactUs}/>
         <Route path="/sponsorships" exact component={Sponsorships}/>
         <Route path="/ebelections" exact component={EBElections}/>
+        <Route path="/wioshome" exact component={Wios}/>
       </Switch>
       <Footer />
     </Router>
