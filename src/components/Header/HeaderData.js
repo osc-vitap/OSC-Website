@@ -29,3 +29,7 @@ export const headerObjOne = {
   export const headerObjEight = {
     headTitle: "WiOS EB"
   };
+
+  export const headerObjNine = {
+    headTitle: "Gallery"
+  };
