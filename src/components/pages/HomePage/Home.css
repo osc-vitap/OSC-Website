@@ -93,15 +93,25 @@
   );
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
+  .item-font {
+    font-size: 70px;
+  }
+
   .slider {
     width: 300px;
     height: 200px;
     border-radius: 15px;
   }
 
+  .slider-wrapper {
+    width: 300px;
+    height: 200px;
+  }
+
   .slide {
-    border-radius: 15px;
+    width: 300px;
+    height: 200px;
   }
 
   .arrow {
