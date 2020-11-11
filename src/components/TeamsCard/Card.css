@@ -1,4 +1,4 @@
-.teams-container {
+.teams-general-container {
   width: 100%;
   max-width: 1300px;
   margin-right: auto;
@@ -8,7 +8,7 @@
   margin-bottom: 20px;
 }
 
-.teams-box {
+.teams-general-box {
   background-color: #000000;
   height: 160px;
   border-radius: 10px;
@@ -17,26 +17,32 @@
   margin-bottom: 20px;
 }
 
-.teams-title {
+.teams-general-title {
   color: #ffffff;
   font-size: 40px;
   margin-left: 10px;
   padding-top: 6%;
 }
 
-.teams-subtitle {
+.teams-general-subtitle {
   color: #ffffff;
   align-self: flex-start;
   margin-left: 10px;
 }
 
-@media screen and (max-width: 400px) {
-  .teams-box {
-    height: 180px;
+@media screen and (max-width: 800px) {
+  .teams-general-box {
+    height: 200px;
   }
 
-  .teams-title {
-    font-size: 15px;
+  .teams-general-title {
+    font-size: 30px;
     padding-top: 12%;
+  }
+
+  .teams-general-subtitle {
+    color: #ccc8f1;
+    align-self: flex-start;
+    margin-left: 10px;
   }
 }
