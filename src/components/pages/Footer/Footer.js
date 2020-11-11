@@ -37,15 +37,21 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>EB Openings</Link>
-            <Link to='/'>Gallery</Link>
+            <Link to='/testimonials'>Testimonials</Link>
+            <Link to='/ebopenings'>EB Openings</Link>
+            <Link to='/gallery'>Gallery</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>GitHub Organization</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/contact'>Contact</Link>
+            <Link to={
+                '//github.com/Open-Source-Community-VIT-AP/'
+              }
+              target='_blank'
+            >
+            GitHub Organization
+            </Link>
+            <Link to='/sponsorships'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -71,6 +77,7 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Admin</h2>
             <Link to={'//oscexecutiveboard.netlify.app/'} target="_blank">EB Login</Link>
+            <Link to='/ebelections'>EB Elections</Link>
           </div>
         </div>
       </div>

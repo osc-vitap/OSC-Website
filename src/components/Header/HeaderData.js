@@ -33,3 +33,23 @@ export const headerObjOne = {
   export const headerObjNine = {
     headTitle: "Gallery"
   };
+
+  export const headerObjTen = {
+    headTitle: "Testimonials"
+  };
+
+  export const headerObjEleven = {
+    headTitle: "EB Openings"
+  };
+
+  export const headerObjTwelve = {
+    headTitle: "Contact Us"
+  };
+
+  export const headerObjThirteen = {
+    headTitle: "Sponsorships"
+  };
+
+  export const headerObjFourteen = {
+    headTitle: "EB Elections"
+  };
