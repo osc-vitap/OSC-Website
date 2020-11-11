@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 import "./About.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFlag, faGlobe, faLaptop, faTrophy } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe, faLaptop, faTrophy } from '@fortawesome/free-solid-svg-icons';
 
 function AboutPage() {
   return (
@@ -34,7 +34,7 @@ function AboutPage() {
             }} className="icon-box"><FontAwesomeIcon icon={faLaptop} className="iconbox-item"/>
             </motion.div>
             <div className="card-title">Workshops</div>
-            <div className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div className="card-text">Hands-on experience is important for an individual to experiment and understand the in-depth process of various technologies. Our partnerships with international chapters and organizations bring in global experiences for our club members during our workshops and seminars.</div>
         </div>
         <div className="card-1">
           <motion.div
@@ -45,7 +45,7 @@ function AboutPage() {
             }} className="icon-box"><FontAwesomeIcon icon={faGlobe} className="iconbox-item"/>
             </motion.div>
             <div className="card-title">Tech Summits</div>
-            <div className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div className="card-text">Summits and Tech Days help bring developers across the globe together. As open source advocates, we organize events like Software Freedom Day and others that help us in bringing together tech enthusiasts from various domains together.</div>
         </div>
       </div>
       {/* <div className="cc-message-container">
