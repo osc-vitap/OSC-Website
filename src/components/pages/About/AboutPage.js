@@ -50,10 +50,10 @@ function AboutPage() {
             <div className="card-text">Summits and Tech Days help bring developers across the globe together. As open source advocates, we organize events like Software Freedom Day and others that help us in bringing together tech enthusiasts from various domains together.</div>
         </div>
       </div>
-      <div className="about-section1">
+      {/* <div className="about-section1">
         <div className="about-section-title">Board of Directors.</div>
-      </div>
-      <div className="cc-message-container">
+      </div> */}
+      {/* <div className="cc-message-container">
         <div className="cc-image-container">
           <img src={CCImage} className="cc-image"></img>
         </div>
@@ -63,6 +63,9 @@ function AboutPage() {
           <p>Prof. Asish Kumar Dalai</p>
           <p>Coordinator</p>
         </div>
+      </div> */}
+      <div className="about-section1">
+        <div className="about-section-title">Official Partner.</div>
       </div>
     </>
   );
