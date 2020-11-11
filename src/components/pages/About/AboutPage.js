@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../../Header/Header";
 import { headerObjTwo } from "../../Header/HeaderData";
-// import CCImage from "../../../images/home/test5.png";
+import CCImage from "../../../images/about/profasish.JPG";
 import { motion } from "framer-motion";
 
 import "./About.css";
@@ -12,7 +12,9 @@ function AboutPage() {
   return (
     <>
       <Header {...headerObjTwo} />
-      <div className="activity-headline">Activity Highlights</div>
+      <div className="about-section1">
+        <div className="about-section-title">Activity Highlights.</div>
+      </div>
       <div className="activities-container">
         <div className="card-1">
           <motion.div
@@ -48,14 +50,20 @@ function AboutPage() {
             <div className="card-text">Summits and Tech Days help bring developers across the globe together. As open source advocates, we organize events like Software Freedom Day and others that help us in bringing together tech enthusiasts from various domains together.</div>
         </div>
       </div>
-      {/* <div className="cc-message-container">
+      <div className="about-section1">
+        <div className="about-section-title">Board of Directors.</div>
+      </div>
+      <div className="cc-message-container">
         <div className="cc-image-container">
           <img src={CCImage} className="cc-image"></img>
         </div>
         <div className="cc-message">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p>Dear Reader,</p><br></br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br></br>
+          <p>Prof. Asish Kumar Dalai</p>
+          <p>Coordinator</p>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }

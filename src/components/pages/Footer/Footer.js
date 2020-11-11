@@ -37,6 +37,14 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
+            <Link 
+              to={
+                '//community.mozilla.org/en/groups/open-source-community/'
+              }
+              target='_blank'
+            >
+              Mozilla Community Portal
+            </Link>
             <Link to='/testimonials'>Testimonials</Link>
             <Link to='/ebopenings'>EB Openings</Link>
             <Link to='/gallery'>Gallery</Link>
