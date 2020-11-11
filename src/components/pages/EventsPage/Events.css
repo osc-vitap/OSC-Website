@@ -13,9 +13,21 @@
   color: #cf0754;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .event-container {
-    margin-left: 6%;
+    margin-left: 6.5%;
+    margin-right: 25%;
+  }
+  .event-tagline {
+    font-weight: 900;
+    font-size: 90px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .event-container {
+    margin-left: 11%;
     margin-right: 25%;
   }
   .event-tagline {

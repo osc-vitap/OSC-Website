@@ -40,3 +40,14 @@
     padding-top: 12%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .teams-box {
+    height: 180px;
+  }
+
+  .teams-title {
+    font-size: 25px;
+    padding-top: 12%;
+  }
+}
