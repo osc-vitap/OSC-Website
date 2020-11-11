@@ -20,7 +20,19 @@
   }
   .event-tagline {
     font-weight: 900;
-    font-size: 90px;
+    font-size: 70px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .event-container {
+    margin-left: 6.5%;
+    margin-right: 25%;
+  }
+  .event-tagline {
+    font-weight: 900;
+    font-size: 60px;
     text-align: left;
   }
 }
