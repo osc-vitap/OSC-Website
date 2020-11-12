@@ -45,7 +45,7 @@ function Footer() {
             >
               Mozilla Community Portal
             </Link>
-            <Link to='/testimonials'>Testimonials</Link>
+            {/* <Link to='/testimonials'>Testimonials</Link> */}
             <Link to='/ebopenings'>EB Openings</Link>
             <Link to='/gallery'>Gallery</Link>
           </div>
