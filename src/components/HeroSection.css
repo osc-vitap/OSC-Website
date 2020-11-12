@@ -111,4 +111,16 @@ img {
   .heading {
     font-size: 60px;
   }
+
+  .blue {
+    color: #ffffff;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 33, 121, 1) 35%,
+      rgba(0, 204, 255, 1) 100%
+    );
+    transition: all 5s ease-out;
+  }
 }
