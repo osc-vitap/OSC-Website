@@ -60,11 +60,11 @@ function Navbar() {
                                 Team
                             </Link>
                         </li>
-                        <li className="nav-item" onClick={closeMobileMenu}>
+                        {/* <li className="nav-item" onClick={closeMobileMenu}>
                             <Link to='/gallery' className='nav-links'>
                                 Gallery
                             </Link>
-                        </li>
+                        </li> */}
                         <li className="nav-btn">
                             {button ? (
                                 <Link to='/wioshome' className="btn-link">
