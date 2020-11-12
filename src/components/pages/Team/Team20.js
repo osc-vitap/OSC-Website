@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from "../../Header/Header";
 import { headerObjFive } from "../../Header/HeaderData";
 import CC from "./../../../images/team/profasish.jpg";
@@ -284,6 +285,12 @@ function Team20() {
                         <div className="b4"></div>
                     </div>
                 </div>
+            </div>
+            <div className="teams-general-container">
+            <div className="teams-general-box">
+                <h2 className="teams-general-title">Women In Open Source</h2>
+                <Link to="/wiosteam2020"><h2 className="teams-general-subtitle">Explore &gt;</h2></Link>
+            </div>
             </div>
         </div>
     )
