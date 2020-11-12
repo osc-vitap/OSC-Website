@@ -149,6 +149,17 @@ function TeamWIOS() {
                     </div>
                 </div>
                 <div className="mcard-container">
+                    <img src={Design2} className="mcard-image" alt="ad-img"></img>
+                    <div className="mcard-name">Terela Srujan</div>
+                    <div className="mcard-title">Graphic Designer</div>
+                    <div className="mcard-flex">
+                        <div className="b1"></div>
+                        <div className="b2"></div>
+                        <div className="b3"></div>
+                        <div className="b4"></div>
+                    </div>
+                </div>
+                <div className="mcard-container">
                     <img src={Design3} className="mcard-image" alt="ad-img"></img>
                     <div className="mcard-name">Gunotham Solanki</div>
                     <div className="mcard-title">Head of Videography</div>
