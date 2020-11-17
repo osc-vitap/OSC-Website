@@ -13,7 +13,7 @@ import VP1 from "./../../../images/team/eb8.png";
 import VP2 from "./../../../images/team/vijay.png";
 import Sec from "./../../../images/team/ph.png";
 import Tres from "./../../../images/team/eb13.png";
-import Tech1 from "./../../../images/team/ph.png";
+import Tech1 from "./../../../images/team/jay.png";
 import Tech2 from "./../../../images/team/eb12.png";
 import Tech3 from "./../../../images/team/eb6.png";
 import Event1 from "./../../../images/team/eb1.png";
@@ -22,6 +22,8 @@ import Design1 from "./../../../images/team/bhavana.png";
 import Design2 from "./../../../images/team/ph.png";
 import Design3 from "./../../../images/team/ph.png";
 import Design4 from "./../../../images/team/saurav.png";
+import Content1 from "./../../../images/team/chirag.png";
+import Content2 from "./../../../images/team/ph.png";
 
 import "./TeamMemberCard.css";
 
@@ -278,6 +280,28 @@ function Team20() {
                     <img src={Design4} className="mcard-image" alt="ad-img"></img>
                     <div className="mcard-name">Saurav Menon</div>
                     <div className="mcard-title">Social Media Relations</div>
+                    <div className="mcard-flex">
+                        <div className="b1"></div>
+                        <div className="b2"></div>
+                        <div className="b3"></div>
+                        <div className="b4"></div>
+                    </div>
+                </div>
+                <div className="mcard-container">
+                    <img src={Content1} className="mcard-image" alt="ad-img"></img>
+                    <div className="mcard-name">Chirag Gupta</div>
+                    <div className="mcard-title">Content Writer</div>
+                    <div className="mcard-flex">
+                        <div className="b1"></div>
+                        <div className="b2"></div>
+                        <div className="b3"></div>
+                        <div className="b4"></div>
+                    </div>
+                </div>
+                <div className="mcard-container">
+                    <img src={Content2} className="mcard-image" alt="ad-img"></img>
+                    <div className="mcard-name">Angel Maria</div>
+                    <div className="mcard-title">Content Writer</div>
                     <div className="mcard-flex">
                         <div className="b1"></div>
                         <div className="b2"></div>
