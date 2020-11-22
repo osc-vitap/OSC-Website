@@ -36,7 +36,7 @@ function Event({ event }) {
               Venue: {event.eventMode}
             </div>
             <div className='event-date'>
-              Date: {mongo_date.getDate()}th {month[mongo_date.getMonth()]}, {mongo_date.getFullYear()}
+              Date: {mongo_date.getDate()} {month[mongo_date.getMonth()]}, {mongo_date.getFullYear()}
             </div>
           </div>
       </>
