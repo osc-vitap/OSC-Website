@@ -75,19 +75,19 @@ function Footer() {
             <h2>Videos</h2>
             <Link
               to={
-                '//www.youtube.com/watch?v=jxiXvSEsBQw/'
-              }
-              target="_blank"
-            >
-              Hacktoberfest 2020
-            </Link>
-            <Link
-              to={
                 '//www.youtube.com/watch?v=ytka3OynvWs/'
               }
               target="_blank"
             >
-              IdeaOryx Results 2020
+              Tech Cast Ep. 1
+            </Link>
+            <Link
+              to={
+                '//www.youtube.com/watch?v=p0LtOmxq3sI'
+              }
+              target="_blank"
+            >
+              Hacktoberfest 2020
             </Link>
           </div>
           <div className='footer-link-items'>
