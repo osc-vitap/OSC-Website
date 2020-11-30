@@ -45,6 +45,14 @@ function Footer() {
             >
               Mozilla Community Portal
             </Link>
+            <Link 
+              to={
+                '//www.mozilla.org/en-US/about/governance/policies/participation/'
+              }
+              target='_blank'
+            >
+              Community Participation Guidelines
+            </Link>
             {/* <Link to='/testimonials'>Testimonials</Link> */}
             <Link to='/ebopenings'>EB Openings</Link>
             <Link to='/gallery'>Gallery</Link>
