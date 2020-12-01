@@ -74,12 +74,9 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Videos</h2>
             <Link
-              to={
-                '//www.youtube.com/watch?v=p0LtOmxq3sI'
-              }
-              target="_blank"
+              to='/techcast'
             >
-              Tech Cast Ep. 1
+              Tech Cast Series
             </Link>
             <Link
               to={
