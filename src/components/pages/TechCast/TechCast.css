@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.tc-category {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(6, 8, 14) 35%,
+    rgb(48, 49, 49) 100%
+  );
+  height: 200px;
+  color: #ffffff;
+}
+
+.tc-title {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  font-size: 6rem;
+  margin-left: 10%;
+  padding-top: 50px;
+}
+
+.title-cast {
+  color: #e9b302;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  font-size: 6rem;
+  padding-top: 50px;
+}
+
+.tc-body {
+  background: #000000;
+}
+
+.tc-description {
+  padding: 2% 10%;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.tc-episodes {
+  padding: 1% 10%;
+}
+
+.tc-ep-title {
+  color: #e9b302;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Bebas Neue", cursive;
+}
+
+.ep-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tc-speaker {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.tc-ep-no {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.tc-speaker-name {
+  color: #e9b302;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.ep-section > iframe {
+  border-radius: 5%;
+  margin-right: 0;
+}
+
+.tc-partner {
+  width: 100%;
+  height: 200px;
+  background: url("./../../../images/partner/airmeet/AM_IconLogo_Light.png")
+    no-repeat;
+  display: inline-block;
+}
+.tc-partner:hover {
+  background: url("./../../../images/partner/airmeet/AM_IconLogo_Color.png")
+    no-repeat;
+}
