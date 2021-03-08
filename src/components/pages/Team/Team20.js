@@ -16,7 +16,8 @@ import Tres from "./../../../images/team/eb13.png";
 import Tech1 from "./../../../images/team/jay.png";
 import Tech2 from "./../../../images/team/eb12.png";
 import Tech3 from "./../../../images/team/eb6.png";
-import Event1 from "./../../../images/team/eb1.png";
+import Tech4 from "./../../../images/team/saipranay.png";
+import Event1 from "./../../../images/team/navya.png";
 import Event2 from "./../../../images/team/eb3.png";
 import Design1 from "./../../../images/team/bhavana.png";
 import Design2 from "./../../../images/team/ph.png";
@@ -189,6 +190,17 @@ function Team20() {
                         <div className="b4"></div>
                     </div>
                 </div>
+        <div className="mcard-container">
+                    <img src={Tech4} className="mcard-image" alt="ad-img"></img>
+                    <div className="mcard-name">Sai Pranay</div>
+                    <div className="mcard-title">Track Lead (Web)</div>
+                    <div className="mcard-flex">
+                        <div className="b1"></div>
+                        <div className="b2"></div>
+                        <div className="b3"></div>
+                        <div className="b4"></div>
+                    </div>
+                </div>
             </div>
             <div className="board-category3">
                 <div className="category-title">Events.</div>
@@ -196,8 +208,8 @@ function Team20() {
             <div className="mcard-box">
                 <div className="mcard-container">
                     <img src={Event1} className="mcard-image" alt="ad-img"></img>
-                    <div className="mcard-name">Sanjana Joshi</div>
-                    <div className="mcard-title">Event Lead</div>
+                    <div className="mcard-name">Navya Katakam</div>
+                    <div className="mcard-title">Event Manager</div>
                     <div className="mcard-flex">
                         <div className="b1"></div>
                         <div className="b2"></div>
