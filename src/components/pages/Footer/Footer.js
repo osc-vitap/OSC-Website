@@ -106,7 +106,7 @@ function Footer() {
           </div>
           <div className='footer-link-items'>
             <h2>Admin</h2>
-            <Link to={'//oscexecutiveboard.netlify.app/'} target="_blank">EB Login</Link>
+            <Link to={'//eb.oscvitap.org/'} target="_blank">EB Login</Link>
             <Link to='/ebelections'>EB Elections</Link>
           </div>
         </div>
