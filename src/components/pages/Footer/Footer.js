@@ -88,6 +88,23 @@ function Footer() {
             </Link>
           </div>
           <div className='footer-link-items'>
+            <h2>Programs</h2>
+            <Link
+              to={'//wsoc.oscvitap.org/'}
+              target="_blank"
+            >
+              Winter Season of Code
+            </Link>
+            <Link
+              to={
+                '//sfd.oscvitap.org/'
+              }
+              target="_blank"
+            >
+              Software Freedom Day
+            </Link>
+          </div>
+          <div className='footer-link-items'>
             <h2>Admin</h2>
             <Link to={'//oscexecutiveboard.netlify.app/'} target="_blank">EB Login</Link>
             <Link to='/ebelections'>EB Elections</Link>
