@@ -118,7 +118,7 @@ function Footer() {
               <img src={OSCLogo} className="img"/>
             </Link>
           </div>
-          <small className='website-rights'>Open Source Community: VIT-AP © 2020</small>
+          <small className='website-rights'>Open Source Community: VIT-AP © 2021</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'
