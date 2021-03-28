@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios';
 import PEvent from './PEvent';
 import './PastEvents.css';
+import LoadAnimation from "./LoadAnimation";
 
 const api = axios.create({
     baseURL: `https://oscwebapi.herokuapp.com/api/posts/`
@@ -15,6 +16,7 @@ class PastEvents extends React.Component {
 
     state = {
         past_events: [],
+        loading: true
     }
 
     constructor(){
@@ -25,7 +27,7 @@ class PastEvents extends React.Component {
     getEvents = async () => {
         try{
             let data = await api.get('/').then(({ data }) => data);
-            this.setState({ past_events: data.sort((a,b) => new Date(b.date) - new Date(a.date)) })
+            this.setState({ past_events: data.sort((a,b) => new Date(b.date) - new Date(a.date)), loading: false})
             console.log("Date:" + date_now + " Month:" + month_now + " Year:" + year_now);
         }catch(err){
             console.log(err);
@@ -37,11 +39,13 @@ class PastEvents extends React.Component {
         return (
             <div>
                 <h1 className="p-event-title">Past Events</h1>
-                <div className='events'>
-                {this.state.past_events.map(past_event => (
-                    <PEvent event={past_event} />
-                ))}
-                </div>
+                {this.state.loading ? (<LoadAnimation />) : (
+                    <div className='events'>
+                    {this.state.past_events.map(past_event => (
+                        <PEvent event={past_event} />
+                    ))}
+                    </div>
+                )}
             </div>
         )}
 }
