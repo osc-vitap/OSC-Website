@@ -19,6 +19,7 @@ import Sponsorships from './components/pages/Sponsorships/Sponsorships';
 import EBElections from './components/pages/EBElections/EBElections';
 import Wios from "./components/pages/WIOS/Wios";
 import TechCast from './components/pages/TechCast/TechCast';
+import Error from './components/pages/Error/Error';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/ebelections" exact component={EBElections}/>
         <Route path="/wioshome" exact component={Wios}/>
         <Route path="/techcast" exact component={TechCast}/>
+        <Route path="/" component={Error}/>
       </Switch>
       <Footer />
     </Router>
