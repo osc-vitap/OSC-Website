@@ -72,11 +72,11 @@ function Navbar() {
                         </li> */}
                         <li className="nav-btn">
                             {button ? (
-                                <Link to='/wioshome' className="btn-link">
+                                <Link to={'//wios.oscvitap.org'} className="btn-link">
                                     <Button buttonStyle='btn--outline'>Women in Open Source</Button>
                                 </Link>
                             ): (
-                                <Link to='/wioshome' className='btn-link' onClick={closeMobileMenu}>
+                                <Link to={'//wios.oscvitap.org'} className='btn-link' onClick={closeMobileMenu}>
                                     <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
                                         Women in Open Source
                                     </Button>
