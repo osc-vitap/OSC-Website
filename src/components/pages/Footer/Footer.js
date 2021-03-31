@@ -105,6 +105,15 @@ function Footer() {
             </Link>
           </div>
           <div className='footer-link-items'>
+            <h2>Chapter</h2>
+            <Link
+              to={'//wios.oscvitap.org/'}
+              target="_blank"
+            >
+              Women in Open Source
+            </Link>
+          </div>
+          <div className='footer-link-items'>
             <h2>Admin</h2>
             <Link to={'//eb.oscvitap.org/'} target="_blank">EB Login</Link>
             <Link to='/ebelections'>EB Elections</Link>

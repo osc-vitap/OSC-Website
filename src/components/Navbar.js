@@ -70,19 +70,6 @@ function Navbar() {
                                 Gallery
                             </Link>
                         </li> */}
-                        <li className="nav-btn">
-                            {button ? (
-                                <Link to={'//wios.oscvitap.org'} className="btn-link">
-                                    <Button buttonStyle='btn--outline'>Women in Open Source</Button>
-                                </Link>
-                            ): (
-                                <Link to={'//wios.oscvitap.org'} className='btn-link' onClick={closeMobileMenu}>
-                                    <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
-                                        Women in Open Source
-                                    </Button>
-                                </Link>
-                            )}
-                        </li>
                     </ul>
                 </div>
             </div> 
