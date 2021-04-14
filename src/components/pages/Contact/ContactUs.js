@@ -21,6 +21,9 @@ function ContactUs() {
       }, (error) => {
           console.log(error.text);
           setError(true);
+          setTimeout(() => {
+            setError(false);
+          }, 10000);
       });
   }
 
@@ -53,7 +56,7 @@ function ContactUs() {
         ) : null}
         {error ? (
           <div class="alert alert-danger" role="alert">
-          A simple danger alert—check it out!
+            Uh oh! An error occurred. Please try again.
         </div>
         ) : null}
       </div>
