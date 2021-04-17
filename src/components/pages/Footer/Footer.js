@@ -72,7 +72,7 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Videos</h2>
+            <h2>Events</h2>
             <Link
               to='/techcast'
             >
@@ -80,11 +80,11 @@ function Footer() {
             </Link>
             <Link
               to={
-                '//www.youtube.com/watch?v=ytka3OynvWs/'
+                '//osc-hub.herokuapp.com/'
               }
               target="_blank"
             >
-              Hacktoberfest 2020
+              OSCHub
             </Link>
           </div>
           <div className='footer-link-items'>
