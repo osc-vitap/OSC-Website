@@ -73,6 +73,12 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Events</h2>
+    <Link
+              to={
+                '//techeden2021.oscvitap.org/'
+              }
+              target="_blank"
+            ></Link>
             <Link
               to='/techcast'
             >
