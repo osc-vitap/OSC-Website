@@ -78,7 +78,7 @@ function Footer() {
                 '//techeden2021.oscvitap.org/'
               }
               target="_blank"
-            ></Link>
+            >TechEden 2021</Link>
             <Link
               to='/techcast'
             >
