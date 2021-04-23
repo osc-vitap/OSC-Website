@@ -65,6 +65,13 @@ function Navbar() {
                                 TechCast
                             </Link>
                         </li>
+                        <li className="nav-item" onClick={closeMobileMenu}>
+                            <Link to={
+                '//techeden2021.oscvitap.org/'
+              } target="_blank" className='nav-links'>
+                                TechEden 2021
+                            </Link>
+                        </li>
                         {/* <li className="nav-item" onClick={closeMobileMenu}>
                             <Link to='/gallery' className='nav-links'>
                                 Gallery
