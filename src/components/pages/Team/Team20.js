@@ -268,7 +268,7 @@ function Team20() {
                 </div>
                 <div className="mcard-container">
                     <img src={Design2} className="mcard-image" alt="ad-img"></img>
-                    <div className="mcard-name">Terela Srujan</div>
+                    <div className="mcard-name">Terala Srujan</div>
                     <div className="mcard-title">Graphic Designer</div>
                     <div className="mcard-flex">
                         <div className="b1"></div>
