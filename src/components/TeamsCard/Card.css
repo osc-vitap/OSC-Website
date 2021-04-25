@@ -10,7 +10,8 @@
 
 .teams-general-box {
   background-color: #000000;
-  height: 160px;
+  /* height: 160px; */
+  padding: 20px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -21,7 +22,7 @@
   color: #ffffff;
   font-size: 40px;
   margin-left: 10px;
-  padding-top: 6%;
+  padding-top: 4%;
 }
 
 .teams-general-subtitle {
