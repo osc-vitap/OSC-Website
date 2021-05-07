@@ -44,7 +44,7 @@ function Project_card({imgurl, title, caption, githublink, link}) {
         <CardActions>
           
           <Button variant = "outlined" color="primary" href = {githublink} target="_blank">
-            Learn More
+            View on GitHub
           </Button>
         </CardActions>
       </Card>
