@@ -12,6 +12,10 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 400,
     boxShadow: "rgba(100, 100, 111, 0.3) 0px 7px 40px 5px",
+    margin:30,
+  },
+  media: {
+    height: 140,
   },
 });
 
@@ -22,9 +26,9 @@ function Project_card({imgurl, title, caption, githublink, link}) {
       <Card className={classes.root}>
         <CardActionArea href = {link}>
           <CardMedia
+            className={classes.media}
             component="img"
             alt={title}
-            height="100%"
             image={imgurl}
             title={title}
           />
@@ -32,12 +36,12 @@ function Project_card({imgurl, title, caption, githublink, link}) {
             <Typography gutterBottom variant="h5" component="h2">
             {title}
             </Typography>
-            <Typography variant="body1" color="textSecondary" component="p" style={{"minHeight" :"150px"}}>
+            <Typography variant="body1" color="textSecondary" component="p" style={{"minHeight" :"200px"}}>
             {caption}
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions disableSpacing ="true">
+        <CardActions>
           
           <Button variant = "outlined" color="primary" href = {githublink} target="_blank">
             Learn More

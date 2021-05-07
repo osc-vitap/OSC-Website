@@ -66,6 +66,11 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item" onClick={closeMobileMenu}>
+                            <Link to='/projects' className='nav-links'>
+                                Projects
+                            </Link>
+                        </li>
+                        <li className="nav-item" onClick={closeMobileMenu}>
                             <Link to={
                 '//techeden2021.oscvitap.org/'
               } target="_blank" className='nav-links'>
