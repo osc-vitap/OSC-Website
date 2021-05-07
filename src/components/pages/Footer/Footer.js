@@ -109,6 +109,13 @@ function Footer() {
             >
               Software Freedom Day
             </Link>
+            <Link
+              to={
+                '/projects'
+              }
+            >
+              Projects
+            </Link>
           </div>
           <div className='footer-link-items'>
             <h2>Chapter</h2>
