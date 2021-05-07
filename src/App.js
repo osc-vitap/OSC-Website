@@ -14,6 +14,7 @@ import TeamWIOS from './components/pages/Team/TeamWIOS';
 import Testimonials from './components/pages/Testimonials/Testimonials';
 import EBOpenings from './components/pages/EBOpenings/EBOpenings';
 import Gallery from './components/pages/Gallery/Gallery';
+import Projects from './components/pages/Projects/Projects';
 import ContactUs from './components/pages/Contact/ContactUs';
 import Sponsorships from './components/pages/Sponsorships/Sponsorships';
 import EBElections from './components/pages/EBElections/EBElections';
@@ -43,6 +44,7 @@ function App() {
         <Route path="/ebelections" exact component={EBElections}/>
         <Route path="/wioshome" exact component={Wios}/>
         <Route path="/techcast" exact component={TechCast}/>
+        <Route path="/projects" exact component={Projects}/>
         <Route path="/" component={Error}/>
       </Switch>
       <Footer />
