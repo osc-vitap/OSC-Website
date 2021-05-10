@@ -42,7 +42,9 @@ function Event({ event }) {
       </>
     )
   }else{
-        return null;
+        return (
+          "-"
+        );
       }
 }
 
