@@ -79,11 +79,11 @@ function Navbar() {
                   Team
                 </Link>
               </li>
-//               <li className="nav-item" onClick={closeMobileMenu}>
-//                 <Link to="/techcast" className="nav-links">
-//                   TechCast
-//                 </Link>
-//               </li>
+              {/* <li className="nav-item" onClick={closeMobileMenu}>
+                <Link to="/techcast" className="nav-links">
+                  TechCast
+                </Link>
+              </li> */}
               <li className="nav-item" onClick={closeMobileMenu}>
                 <Badge
                   badgeContent={"New"}
