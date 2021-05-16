@@ -95,22 +95,6 @@ function Navbar() {
                   </Link>
                 </Badge>
               </li>
-              <li className="nav-item" onClick={closeMobileMenu}>
-            <ThemeProvider theme={theme}>
-                <Badge
-                  badgeContent={"Ongoing"}
-                  color="secondary"
-                >
-                  <Link
-                    to={"//techeden2021.oscvitap.org/"}
-                    target="_blank"
-                    className="nav-links"
-                  >
-                    TechEden 2021  
-                  </Link>
-                </Badge>
-            </ThemeProvider>
-              </li>
               {/* <li className="nav-item" onClick={closeMobileMenu}>
                             <Link to='/gallery' className='nav-links'>
                                 Gallery
