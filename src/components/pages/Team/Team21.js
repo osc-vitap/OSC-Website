@@ -35,45 +35,45 @@ function Team21() {
             <div className="board-category1">
                 <div className="category-title">To be announced!</div>
             </div>
-//             <div className="mcard-box">
-//                 <div className="mcard-container">
-//                     <img src={CC} className="mcard-image" alt="ad-img"></img>
-//                     <div className="mcard-name">Prof. Asish K. Dalai</div>
-//                     <div className="mcard-title">Club Coordinator (Faculty)</div>
-//                     <div className="mcard-flex">
-//                         <div className="b1"></div>
-//                         <div className="b2"></div>
-//                         <div className="b3"></div>
-//                         <div className="b4"></div>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className="mcard-box">
-//                 <div className="mcard-container">
-//                     <img src={CL} className="mcard-image" alt="ad-img"></img>
-//                     <div className="mcard-name">S Vijay Balaji</div>
-//                     <div className="mcard-title">Community Leader</div>
-//                     <div className="mcard-flex">
-//                         <div className="b1"></div>
-//                         <div className="b2"></div>
-//                         <div className="b3"></div>
-//                         <div className="b4"></div>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className="mcard-box">
-//                 <div className="mcard-container">
-//                     <img src={Pres} className="mcard-image" alt="ad-img"></img>
-//                     <div className="mcard-name">G V Datta Adithya</div>
-//                     <div className="mcard-title">President</div>
-//                     <div className="mcard-flex">
-//                         <div className="b1"></div>
-//                         <div className="b2"></div>
-//                         <div className="b3"></div>
-//                         <div className="b4"></div>
-//                     </div>
-//                 </div>
-//             </div>
+{/*<div className="mcard-box">
+                <div className="mcard-container">
+                    <img src={CC} className="mcard-image" alt="ad-img"></img>
+                    <div className="mcard-name">Prof. Asish K. Dalai</div>
+                    <div className="mcard-title">Club Coordinator (Faculty)</div>
+                    <div className="mcard-flex">
+                        <div className="b1"></div>
+                        <div className="b2"></div>
+                        <div className="b3"></div>
+                        <div className="b4"></div>
+                    </div>
+                </div>
+            </div>
+            <div className="mcard-box">
+                <div className="mcard-container">
+                    <img src={CL} className="mcard-image" alt="ad-img"></img>
+                    <div className="mcard-name">S Vijay Balaji</div>
+                    <div className="mcard-title">Community Leader</div>
+                    <div className="mcard-flex">
+                        <div className="b1"></div>
+                        <div className="b2"></div>
+                        <div className="b3"></div>
+                        <div className="b4"></div>
+                    </div>
+                </div>
+            </div>
+            <div className="mcard-box">
+                <div className="mcard-container">
+                    <img src={Pres} className="mcard-image" alt="ad-img"></img>
+                    <div className="mcard-name">G V Datta Adithya</div>
+                    <div className="mcard-title">President</div>
+                    <div className="mcard-flex">
+                        <div className="b1"></div>
+                        <div className="b2"></div>
+                        <div className="b3"></div>
+                        <div className="b4"></div>
+                    </div>
+                </div>
+            </div>*/}
         </div>
     )
 }
