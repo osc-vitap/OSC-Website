@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from "../../Header/Header";
-import { headerObjFive } from "../../Header/HeaderData";
+import { headerObjSeventeen } from "../../Header/HeaderData";
 import CC from "./../../../images/team/profasish.jpg";
 import CL from "./../../../images/team/vijay.png";
 import Pres from "./../../../images/team/eb8.png";
@@ -31,7 +31,7 @@ import "./TeamMemberCard.css";
 function Team21() {
     return (
         <div>
-            <Header {...headerObjFive} />
+            <Header {...headerObjSeventeen} />
             <div className="board-category1">
                 <div className="category-title">Core.</div>
             </div>
