@@ -57,6 +57,11 @@ export const headerObjOne = {
   export const headerObjFifteen = {
     headTitle: "WiOS"
   };
+
   export const headerObjSixteen = {
     headTitle: "Projects"
+  };
+
+export const headerObjSeventeen = {
+    headTitle: "EB 2021"
   };
