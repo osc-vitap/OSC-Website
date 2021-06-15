@@ -8,7 +8,7 @@ function Card() {
         <div className="teams-general-container">
             <div className="teams-general-box">
                 <h2 className="teams-general-title">Executive Board 2021</h2>
-                <Link to="/team2021"><h2 className="teams-general-subtitle">Explore &gt;</h2></Link>
+                <h2 className="teams-general-subtitle">Coming Soon</h2>
             </div>
             <div className="teams-general-box">
                 <h2 className="teams-general-title">Executive Board 2020</h2>
