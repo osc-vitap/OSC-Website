@@ -39,7 +39,7 @@ function Team21() {
 //                 <div className="mcard-container">
 //                     <img src={CC} className="mcard-image" alt="ad-img"></img>
 //                     <div className="mcard-name">Prof. Asish K. Dalai</div>
-//                     <div className="mcard-title">Club Coordinator, Open Source Community</div>
+//                     <div className="mcard-title">Club Coordinator (Faculty)</div>
 //                     <div className="mcard-flex">
 //                         <div className="b1"></div>
 //                         <div className="b2"></div>
