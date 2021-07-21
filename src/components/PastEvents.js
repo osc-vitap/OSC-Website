@@ -44,6 +44,7 @@ class PastEvents extends React.Component {
                     {this.state.past_events.map(past_event => (
                         <PEvent event={past_event} />
                     ))}
+                    
                     </div>
                 )}
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Event.css';
 
+
 function Event({ event }) {
   const curr_date = new Date();
   const mongo_date = new Date(event.date);
@@ -17,35 +18,41 @@ function Event({ event }) {
   month[9] = "October";
   month[10] = "November";
   month[11] = "December";
+
   if((mongo_date.getFullYear() > curr_date.getFullYear()) || ((mongo_date.getFullYear() === curr_date.getFullYear()) && (mongo_date.getMonth() >= curr_date.getMonth()) && (mongo_date.getDate() > curr_date.getDate()) )){
       return (
       <>
-          <div className='event-preview'>
-            <div className='event-title linear-wipe'>
-              {event.title}
+           <div className="event_outer">
+            {/* <img src={webhunt} alt="webhunt logo" /> */}
+            <div className="event_card_right">
+                <div className="event_top">
+                    <span className="enent_date">
+                        <p>{month[mongo_date.getMonth()].substring(0,3)}</p>
+                        <h5>07</h5>
+                    </span>
+                    <span className="event_title">
+                        <h1>{event.title}</h1>
+                    </span>
+                </div>
+                <div className="event_bottom">
+                    <p> {event.description} </p>
+
+                    <div className="event_tags">
+                        
+                            <span>{event.eventType}</span>
+                            <span>{event.eventMode}</span>
+                        
+                    </div>
+                </div>
             </div>
-            <div className="test"></div>
-            <br></br>
-            <div className='event-description'>
-            {event.description}
-            </div>
-            <div className='event-type'>
-              {event.eventType}
-            </div>
-            <div className='event-mode'>
-              Venue: {event.eventMode}
-            </div>
-            <div className='event-date'>
-              Date: {month[mongo_date.getMonth()]} {mongo_date.getDate()}, {mongo_date.getFullYear()}
-            </div>
-          </div>
+
+        </div>
+        
       </>
     )
   }else{
-        return (
-          "-"
-        );
-      }
+        return null;
+    }
 }
 
 export default Event;
