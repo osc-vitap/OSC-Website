@@ -10,6 +10,7 @@ const api = axios.create({
 
 var now = Date(Date.now);
 
+var count = 0;
 class CurrentEvents extends React.Component {
 
     state = {
@@ -31,7 +32,6 @@ class CurrentEvents extends React.Component {
             console.log(err);
         }
     }
-
     render(){
         return (
             <div>
@@ -39,9 +39,12 @@ class CurrentEvents extends React.Component {
                 {this.state.loading ? (<LoadAnimation />) : (
                     <div className='events'>
                     {this.state.current_events.map(current_event => (
+                        
                         <Event event={current_event} />
+                
                     ))}
                     </div>
+                    
                 )}
             </div>
         )}
