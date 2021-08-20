@@ -22,6 +22,7 @@
   width: 200px;
   margin-left: 20px;
   margin-top: 20px;
+  object-fit: cover;
 }
 
 .mcard-name {
