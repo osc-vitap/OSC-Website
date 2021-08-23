@@ -19,7 +19,6 @@ import el2 from "./../../../images/team/eb21/Chethan_EventLead.jpg";
 import eo from "./../../../images/team/eb21/Abhiram_HeadOfVideographyAndEventOrg.jpg";
 import om from "./../../../images/team/eb21/Sabareesh_SocialMediaLead.jpg";
 import ce from "./../../../images/team/eb21/chirag_ChiefEditor.jpg";
-import d1 from "./../../../images/team/eb21/Teja _ TechLead+Designer.jpg";
 
 import "./TeamMemberCard.css";
 
@@ -268,17 +267,6 @@ function Team21() {
                     <img src={trl} className="mcard-image" alt="ad-img"></img>
                     <div className="mcard-name">Sai Pranay</div>
                     <div className="mcard-title">Track Lead</div>
-                    <div className="mcard-flex">
-                        <div className="b1"></div>
-                        <div className="b2"></div>
-                        <div className="b3"></div>
-                        <div className="b4"></div>
-                    </div>
-                </div>
-                <div className="mcard-container">
-                    <img src={d1} className="mcard-image" alt="ad-img"></img>
-                    <div className="mcard-name">Teja</div>
-                    <div className="mcard-title">Designer</div>
                     <div className="mcard-flex">
                         <div className="b1"></div>
                         <div className="b2"></div>
