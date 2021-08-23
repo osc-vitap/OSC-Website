@@ -27,7 +27,7 @@ function Event({ event }) {
                 <div className="event_top">
                     <span className="enent_date">
                         <p>{month[mongo_date.getMonth()].substring(0,3)}</p>
-                        <h5>07</h5>
+                        <h5>{event.date.substring(8,10)}</h5>
                     </span>
                     <span className="event_title">
                         <h1>{event.title}</h1>
