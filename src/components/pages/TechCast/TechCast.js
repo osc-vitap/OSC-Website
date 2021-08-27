@@ -26,11 +26,11 @@ function TechCast() {
           <div className="ep-section">
             <div className="tc-speaker">
               <div className="tc-ep-no">Ep. 2</div>
-              <div className="tc-speaker-name">Coming Soon</div>
-              <div className="tc-speaker-name">TBA</div>
-              <div className="tc-speaker-name">Topic: TBA</div>
+              <div className="tc-speaker-name">Manaswini Das</div>
+              <div className="tc-speaker-name">software engineer at RedHat</div>
+              <div className="tc-speaker-name">Topic: APIs </div>
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ar_jBA2E2uA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kvMUNlqp44s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div className="tc-ep-title">Event Partner</div>
           <a href="https://www.airmeet.com" target="_blank"><div className="tc-partner"></div></a>
