@@ -74,7 +74,6 @@ function Footer() {
             <Link to={"//techeden2021.oscvitap.org/"} target="_blank">
               TechEden 2021
             </Link>
-            <Link to="/techcast">Tech Cast Series</Link>
             <Badge
               badgeContent={"New"}
               color="primary"
@@ -83,29 +82,31 @@ function Footer() {
                 horizontal: "right",
               }}
             >
+            <Link to="/techcast">Tech Cast Series</Link>
+            </Badge>
               <Link to={"//osc-hub.herokuapp.com/"} target="_blank">
                 OSCHub
               </Link>
-            </Badge>
           </div>
           <div className="footer-link-items">
             <h2>Programs</h2>
             <Link to={"//wsoc.oscvitap.org/"} target="_blank">
-              Winter Season of Code
-            </Link>
-            <Link to={"//sfd.oscvitap.org/"} target="_blank">
-              Software Freedom Day
-            </Link>
+              Winter Season of Code &nbsp;
             <Badge
               badgeContent={"New"}
               color="primary"
               anchorOrigin={{
-                vertical: "bottom",
+                vertical: "middle",
                 horizontal: "right",
               }}
-            >
-              <Link to={"/projects"}>Projects</Link>
+            >   
+               &nbsp; 
             </Badge>
+            </Link>
+            <Link to={"//sfd.oscvitap.org/"} target="_blank">
+              Software Freedom Day
+            </Link>
+              <Link to={"/projects"}>Projects</Link>
           </div>
           <div className="footer-link-items">
             <h2>Chapter</h2>
