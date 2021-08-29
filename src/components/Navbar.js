@@ -85,15 +85,15 @@ function Navbar() {
                 </Link>
               </li> */}
               <li className="nav-item" onClick={closeMobileMenu}>
-                <Badge
+                {/* <Badge
                   badgeContent={"New"}
                   color="primary"
                   overlap="circle"
-                >
+                > */}
                   <Link to="/projects" className="nav-links">
                     Projects
                   </Link>
-                </Badge>
+                {/* </Badge> */}
               </li>
               {/* <li className="nav-item" onClick={closeMobileMenu}>
                             <Link to='/gallery' className='nav-links'>
