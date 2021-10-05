@@ -10,11 +10,11 @@ function TeamCard(props){
                 <div className="CardBody">
                     <div className="user-picture" style={{backgroundImage: `url("${props.image}")`}}></div>
                     <div className="user-content">
-                        <h4 className="user-name">Sai Pranay</h4>
-                        <p className="role">Web developer</p>
-                        {/* <p className="description">{props.description}</p> */}
+                        <h4 className="user-name">{props.name}</h4>
+                        <p className="role">{props.role}</p>
+                        <p className="description">{props.description}</p>
                         <div className="teamCardIcons">
-                            <a className="icon" target="_blank" rel="noreferrer" href={props.facebook}><FaDiscord size={22}/></a>
+                            
                             <a className="icon" target="_blank" rel="noreferrer" href={props.mail}><HiMail size={22} /></a>
                             <a className="icon" target="_blank" rel="noreferrer" href={props.linkedin}><FaLinkedinIn size={22} /></a>
                             <a className="icon" target="_blank" rel="noreferrer" href={props.github}><FaGithub size={22} /></a>

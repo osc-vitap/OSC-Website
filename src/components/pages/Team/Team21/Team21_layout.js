@@ -27,7 +27,8 @@ function Team21_layout() {
   const core = [
     {
       image: cp,
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
+      role:"presedent",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -35,7 +36,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -44,7 +45,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -53,7 +54,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -62,7 +63,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -71,7 +72,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -80,7 +81,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -89,7 +90,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -101,7 +102,7 @@ function Team21_layout() {
   const tech = [
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -109,7 +110,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -117,7 +118,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -125,7 +126,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -133,7 +134,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -144,7 +145,7 @@ function Team21_layout() {
   const events = [
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -152,7 +153,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -160,7 +161,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -168,7 +169,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -180,7 +181,7 @@ function Team21_layout() {
   const design = [
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -188,7 +189,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -196,7 +197,7 @@ function Team21_layout() {
     },
     {
       image: "https://bindhumadhav.in/temp/images/1.jpg",
-      facebook: "https://www.facebook.com/bindhumadhav.in",
+      name: "name",
       mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
       github: "https://github.com/BINDHUMADHAVAVARMA",
@@ -215,7 +216,8 @@ function Team21_layout() {
             {core.map((i) => (
               <TeamCard
                 image={i.image}
-                facebook={i.facebook}
+                name={i.name}
+                role = {i.role}
                 mail={i.mail}
                 linkedin={i.linkedin}
                 github={i.github}
@@ -237,7 +239,8 @@ function Team21_layout() {
             {tech.map((i) => (
               <TeamCard
                 image={i.image}
-                facebook={i.facebook}
+                name={i.name}
+                role = {i.role}
                 mail={i.mail}
                 linkedin={i.linkedin}
                 github={i.github}
@@ -259,7 +262,8 @@ function Team21_layout() {
             {design.map((i) => (
               <TeamCard
                 image={i.image}
-                facebook={i.facebook}
+                name={i.name}
+                role = {i.role}
                 mail={i.mail}
                 linkedin={i.linkedin}
                 github={i.github}
@@ -281,7 +285,8 @@ function Team21_layout() {
             {events.map((i) => (
               <TeamCard
                 image={i.image}
-                facebook={i.facebook}
+                name={i.name}
+                role = {i.role}
                 mail={i.mail}
                 linkedin={i.linkedin}
                 github={i.github}
