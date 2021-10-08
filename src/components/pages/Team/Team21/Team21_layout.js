@@ -30,6 +30,7 @@ import ss from "./../../../../images/team/eb21/shaket_documentation specialist.j
 import ni from "./../../../../images/team/eb21/Nishita_Event Department.jpeg";
 import pm from "./../../../../images/team/eb21/MounikaPraseeda_CreativeDepart.jpg";
 import lk from "./../../../../images/team/eb21/Loukya_Front-End designer.jpeg";
+import tba from "./../../../../images/team/eb21/tba.webp";
 
 function Team21_layout() {
   const core = [
@@ -53,13 +54,13 @@ function Team21_layout() {
       description: "Kind of a pogchamp.",
     },
     {
-      image: vp,
-      name: "Bhargavi Chada",
-      role: "Vice President",
-      mail: "mailto:bhargavi.19bcn7021@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/bhargavi-chada/",
-      github: "https://github.com/BhargaviChada",
-      description: "I like trains.",
+      image: tba,
+      name: "TBA",
+      role: "Chairman",
+      mail: "mailto:adithya.19bce7119@vitap.ac.in",
+      linkedin: "false",
+      github: "false",
+      description: "false",
     },
     {
       image: lt,
@@ -69,6 +70,15 @@ function Team21_layout() {
       linkedin: "https://www.linkedin.com/in/lakshmi-teja-bb45861a1/",
       github: "https://github.com/LakshmiTejaP",
       description: "I get really excited when the sky is in pretty colors.",
+    },
+    {
+      image: vp,
+      name: "Bhargavi Chada",
+      role: "Vice President",
+      mail: "mailto:bhargavi.19bcn7021@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/bhargavi-chada/",
+      github: "https://github.com/BhargaviChada",
+      description: "I like trains.",
     },
     
     {

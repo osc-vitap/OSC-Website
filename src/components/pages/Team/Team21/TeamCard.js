@@ -14,8 +14,8 @@ function TeamCard(props){
                 <p className="teamCardRole">{props.role}</p>
                 {/* <p className="teamCardDescription">{props.description}</p> */}
                 <div className="teamCardIcons">
-                    <a style={{marginLeft:"-11px"}} className="icon" target="_blank" rel="noreferrer" href={props.mail}><HiMail size={22} /></a>
-                    <a className="icon" target="_blank" rel="noreferrer" href={props.linkedin}><FaLinkedinIn size={22} /></a>
+                    <a style={{marginLeft:"-11px"}} className={(props.github === "false" ? 'hide' : 'icon')} target="_blank" rel="noreferrer" href={props.mail}><HiMail size={22} /></a>
+                    <a className={(props.github === "false" ? 'hide' : 'icon')} target="_blank" rel="noreferrer" href={props.linkedin}><FaLinkedinIn size={22} /></a>
                     <a className={(props.github === "false" ? 'hide' : 'icon')}  target="_blank" rel="noreferrer" href={props.github}><FaGithub size={22} /></a>
                 </div>
             </div>
