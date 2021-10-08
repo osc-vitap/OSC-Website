@@ -39,7 +39,7 @@ function Team21_layout() {
       name: "S.V. Harsha Vardhan",
       role: "Director",
       mail: "harshavardhan.19BCD7149@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/harsha-samudrala-3ba66a216/",
+      linkedin: "https://www.linkedin.com/in/harshavardhan-samudrala-3ba66a216/",
       github: "https://github.com/harsha0703",
       description: "Think different for a better future. ",
     },
@@ -70,15 +70,7 @@ function Team21_layout() {
       github: "https://github.com/LakshmiTejaP",
       description: "I get really excited when the sky is in pretty colors.",
     },
-    {
-      image: kc,
-      name: "Kaarthik",
-      role: "Chairman",
-      mail: "mailto:Kaarthik.19bcd7142@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/kaarthik-patibandla-30017219a/",
-      github: "https://github.com/tatiniG/",
-      description: "That which does not kill us makes us stronger ",
-    },
+    
     {
       image: sc,
       name: "Ojasva",
@@ -218,7 +210,7 @@ function Team21_layout() {
     {
       image: om,
       name: "Sabareesh Reddy",
-      role: "SocialMedia Lead",
+      role: "Social Media Lead",
       mail: "mailto:sabareesh.19bce7210@vitap.ac.in",
       linkedin:
         "https://www.linkedin.com/in/sabareesh-reddy-chowkacherla-6834a6196/",
@@ -248,6 +240,15 @@ function Team21_layout() {
   ];
 
   const design = [
+    {
+      image: kc,
+      name: "Kaarthik",
+      role: "Head of Marketing",
+      mail: "mailto:Kaarthik.19bcd7142@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/kaarthik-patibandla-30017219a/",
+      github: "https://github.com/tatiniG/",
+      description: "That which does not kill us makes us stronger ",
+    },
     {
       image: ce,
       name: "Chirag",
