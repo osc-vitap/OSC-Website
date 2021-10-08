@@ -32,6 +32,15 @@ function TechCast() {
             </div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/kvMUNlqp44s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
+          <div className="ep-section">
+            <div className="tc-speaker">
+              <div className="tc-ep-no">Ep. 3</div>
+              <div className="tc-speaker-name">Giuseppe Bonocore</div>
+              <div className="tc-speaker-name">Principal Solution Architect at RedHat</div>
+              <div className="tc-speaker-name">Topic: DevOps And Microservices </div>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yfOXXWkuCEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <div className="tc-ep-title">Event Partner</div>
           <a href="https://www.airmeet.com" target="_blank"><div className="tc-partner"></div></a>
         </div>

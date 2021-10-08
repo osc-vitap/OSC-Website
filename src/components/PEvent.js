@@ -18,7 +18,7 @@ function Event({ event }) {
   month[9] = "October";
   month[10] = "November";
   month[11] = "December";
-  if((mongo_date.getFullYear() < curr_date.getFullYear()) || ((mongo_date.getFullYear() === curr_date.getFullYear()) && (mongo_date.getMonth() <= curr_date.getMonth()) && (mongo_date.getDate() < curr_date.getDate()) )){
+  if((mongo_date.getFullYear() < curr_date.getFullYear()) || ((mongo_date.getFullYear() === curr_date.getFullYear()) && (mongo_date.getMonth() < curr_date.getMonth()) )|| ((mongo_date.getFullYear() === curr_date.getFullYear()) && (mongo_date.getMonth() === curr_date.getMonth()) && (mongo_date.getDate() < curr_date.getDate()) )){
       return (
       <>
            <div className="event_outer">
