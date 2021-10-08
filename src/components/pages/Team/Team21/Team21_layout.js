@@ -281,7 +281,7 @@ function Team21_layout() {
     {
       image: ss,
       name: "Sai Shaket Kalivarapu",
-      role: "Documentation team",
+      role: "Documentation specialist",
       mail: "mailto:shaket.19bce7547@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/sai-shaket-kalivarapu-51327618a/",
       github: "https://github.com/KilluaZ06",
