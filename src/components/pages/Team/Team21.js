@@ -2,36 +2,27 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from "../../Header/Header";
 import { headerObjSeventeen } from "../../Header/HeaderData";
-import CC from "./../../../images/team/profasish.jpg";
-import ph from "./../../../images/team/ph.png";
-import cl from "./../../../images/team/eb21/Vijay_CommunityLead.PNG";
-import cp from "./../../../images/team/eb21/Adithya_President.JPG";
-import vp from "./../../../images/team/eb21/Bhargavi_VicePresident.jpeg";
-import dr from "./../../../images/team/harsha.png";
-import pr from "./../../../images/team/eb21/Tarini_HeadOfPublicRelations.jpg";
-import sc from "./../../../images/team/eb21/Ojasva_Secretary.jpeg";
-import tl1 from "./../../../images/team/eb21/Krishna Raj_TechLead.jpg";
-import tl2 from "./../../../images/team/eb21/Madhav_TechLead.jpg";
-import trl from "./../../../images/team/eb21/SaiPranay_TrackLead.jpg";
-import md from "./../../../images/team/eb21/MaheshDasika_TechDepartment.jpg";
-import bmd from "./../../../images/team/eb21/BindhuMadhav_TechDepartment.jpg";
-import el2 from "./../../../images/team/eb21/Chethan_EventLead.jpg";
-import eo from "./../../../images/team/eb21/Abhiram_HeadOfVideographyAndEventOrg.jpg";
-import om from "./../../../images/team/eb21/Sabareesh_SocialMediaLead.jpg";
-import ce from "./../../../images/team/eb21/chirag_ChiefEditor.jpg";
-import mel from "./../../../images/team/eb21/maruti.png";
-import kc from "./../../../images/team/eb21/KAARTHIK SAI.jpeg";
+
+
+import Team21_layout from './Team21/Team21_layout';
 
 import "./TeamMemberCard.css";
 
 function Team21() {
+
+    
+
+
     return (
         <div>
             <Header {...headerObjSeventeen} />
-            <div className="board-category1">
+
+            {/* <div className="board-category1">
                 <div className="category-title">Core.</div>
-            </div>
-            <div className="mcard-box">
+            </div> */}
+            <Team21_layout/>
+
+            {/* <div className="mcard-box">
                 <div className="mcard-container">
                     <img src={CC} className="mcard-image" alt="ad-img"></img>
                     <div className="mcard-name">Prof. Asish K. Dalai</div>
@@ -275,9 +266,11 @@ function Team21() {
                         <div className="b3"></div>
                         <div className="b4"></div>
                     </div>
-                </div>
+                </div> */}
                
-            </div>
+            {/* </div> */}
+
+
             
         </div>
     )
