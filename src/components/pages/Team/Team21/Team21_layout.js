@@ -38,15 +38,6 @@ function Team21_layout() {
   const core = [
     
     {
-      image: dr,
-      name: "S.V. Harsha Vardhan",
-      role: "Director",
-      mail: "harshavardhan.19BCD7149@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/harshavardhan-samudrala-3ba66a216/",
-      github: "https://github.com/harsha0703",
-      description: "Think different for a better future. ",
-    },
-    {
       image: cp,
       name: "Datta Adithya G V",
       role: "President",
@@ -54,6 +45,15 @@ function Team21_layout() {
       linkedin: "https://www.linkedin.com/in/datta-adithya/",
       github: "https://github.com/dat-adi",
       description: "Kind of a pogchamp.",
+    },
+    {
+      image: dr,
+      name: "S.V. Harsha Vardhan",
+      role: "Director",
+      mail: "harshavardhan.19BCD7149@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/harshavardhan-samudrala-3ba66a216/",
+      github: "https://github.com/harsha0703",
+      description: "Think different for a better future. ",
     },
     {
       image: tba,
