@@ -31,6 +31,8 @@ import ni from "./../../../../images/team/eb21/Nishita_Event Department.jpeg";
 import pm from "./../../../../images/team/eb21/MounikaPraseeda_CreativeDepart.jpg";
 import lk from "./../../../../images/team/eb21/Loukya_Front-End designer.jpeg";
 import tba from "./../../../../images/team/eb21/tba.webp";
+import ang from "./../../../../images/team/eb21/Angel_HR Lead.jpg";
+
 
 function Team21_layout() {
   const core = [
@@ -108,6 +110,15 @@ function Team21_layout() {
       github: "https://github.com/fullmeteor172",
       description: "Not lazy, just on power saving mode ;-;",
     },
+    {
+      image: ang,
+      name: "Angel Maria Stanley",
+      role: "HR Lead",
+      mail: "mailto:maria.21bce7363@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/angel-stanly-218a0893/",
+      github: "https://github.com/Maiden23",
+      description: "If you gonna cry here, you might as well cry in paris",
+    },
   ];
 
   const tech = [
@@ -182,8 +193,7 @@ function Team21_layout() {
       mail: "mailto:aryan.21bce8377@vitapstudent.ac.in",
       linkedin: "https://www.linkedin.com/in/aryan-mohanty-230160221/",
       github: "https://GitHub.com/AryanVIT",
-      description:
-        "Better never means better for everyone it always means worse for some",
+      description: "Better never means better for everyone, it always means worse for some",
     },
     {
       image: lk,
@@ -304,6 +314,15 @@ function Team21_layout() {
       linkedin: "https://www.linkedin.com/in/praseeda-kallakuri-970334221",
       github: "https://github.com/praseedakallakuri",
       description: "creative soul!!",
+    },
+    {
+      image: ang,
+      name: "Angel Maria Stanley",
+      role: "HR Lead",
+      mail: "mailto:maria.21bce7363@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/angel-stanly-218a0893/",
+      github: "https://github.com/Maiden23",
+      description: "If you gonna cry here, you might as well cry in paris",
     },
   ];
 
