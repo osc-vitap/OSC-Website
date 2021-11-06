@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import PEvent from "./PEvent";
-import Event from './Event';
+import Event from "./Event";
 import "./EventsList.css";
 import LoadAnimation from "./LoadAnimation";
 
@@ -18,13 +18,24 @@ function EventsList() {
       .get("/event/", { crossdomain: true })
       .then((res) => {
         setEvents(res.data);
-        console.log(res.data);
         setLoading(false);
       })
       .catch((err, res) => {
         console.log(err);
       });
   }, []);
+
+  function noUpcomingEvents() {
+    let today = new Date();
+    let upcomingEvents = events.filter((event) => {
+      let eventDate = new Date(event.eventDate);
+      console.log(eventDate);
+      return (
+        eventDate.getTime() > today.getTime()
+      );
+    });
+    return upcomingEvents.length === 0;
+  }
 
   return (
     <>
@@ -34,9 +45,13 @@ function EventsList() {
           <LoadAnimation />
         ) : (
           <div className="events">
-            {events.map((event) => (
-              <Event event={event} />
-            ))}
+            {noUpcomingEvents() ? (
+              <h4 className="no-upcoming-events">
+                "There are no upcoming events in the next 15 days"
+              </h4>
+            ) : (
+              events.map((event) => <Event event={event} />)
+            )}
           </div>
         )}
       </div>
