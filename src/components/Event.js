@@ -1,10 +1,38 @@
-import React from 'react'
-import './Event.css';
-
+import React from "react";
+import "./Event.css";
 
 function Event({ event }) {
+  function tConvert(timeString) {
+    var H = +timeString.substr(0, 2);
+    var h = H % 12 || 12;
+    var ampm = H < 12 ? " AM" : " PM";
+    timeString = h + ampm;
+    return timeString;
+  }
+
+  function dateConvert(date) {
+    var monthNames = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+    var day = date.substr(8, 2);
+    var monthIndex = date.substr(5, 2);
+    var year = date.substr(0, 4);
+    return monthNames[monthIndex - 1] + " " + day + ", " + year;
+  }
+
   const curr_date = new Date();
-  const mongo_date = new Date(event.date);
+  const mongo_date = new Date(event.eventDate);
   var month = new Array();
   month[0] = "January";
   month[1] = "February";
@@ -19,40 +47,51 @@ function Event({ event }) {
   month[10] = "November";
   month[11] = "December";
 
-  if((mongo_date.getFullYear() > curr_date.getFullYear()) || ((mongo_date.getFullYear() === curr_date.getFullYear()) && (mongo_date.getMonth() > curr_date.getMonth())) || ((mongo_date.getFullYear() === curr_date.getFullYear()) && (mongo_date.getMonth() === curr_date.getMonth()) && (mongo_date.getDate() > curr_date.getDate())) ){
-      return (
+  if (
+    mongo_date.getFullYear() > curr_date.getFullYear() ||
+    (mongo_date.getFullYear() === curr_date.getFullYear() &&
+      mongo_date.getMonth() > curr_date.getMonth()) ||
+    (mongo_date.getFullYear() === curr_date.getFullYear() &&
+      mongo_date.getMonth() === curr_date.getMonth() &&
+      mongo_date.getDate() >= curr_date.getDate())
+  ) {
+    return (
       <>
-           <div className="event_outer">
-            {/* <img src={webhunt} alt="webhunt logo" /> */}
-            <div className="event_card_right">
-                <div className="event_top">
-                    <span className="enent_date">
-                        <p>{month[mongo_date.getMonth()].substring(0,3)}</p>
-                        <h5>{event.date.substring(8,10)}</h5>
-                    </span>
-                    <span className="event_title">
-                        <h1>{event.title}</h1>
-                    </span>
-                </div>
-                <div className="event_bottom">
-                    <p> {event.description} </p>
-
-                    <div className="event_tags">
-                        
-                            <span>{event.eventType}</span>
-                            <span>{event.eventMode}</span>
-                        
-                    </div>
-                </div>
+        <div className="event_card">
+          <img
+            className="event_event_image"
+            src={event.eventLogo}
+            alt={event.eventName}
+          />
+          <div className="event_content">
+            <div className="event_top">
+              <h2>{event.eventName}</h2>
+              <p>{event.eventCaption}</p>
             </div>
-
+            <div className="event_bottom">
+              <span>
+                <p>
+                  {dateConvert(event.eventDate)} |{" "}
+                  {tConvert(event.eventStartTime)}
+                </p>
+              </span>
+              <a
+                href={
+                  "https://osc-hub.herokuapp.com/eventreg/event/" + event.id
+                }
+                target="_"
+                className="event_button"
+              >
+                Know more
+              </a>
+            </div>
+          </div>
         </div>
-        
       </>
-    )
-  }else{
-        return null;
-    }
+    );
+  } else {
+    return null;
+  }
 }
 
 export default Event;
