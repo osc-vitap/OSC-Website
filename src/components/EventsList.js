@@ -47,7 +47,7 @@ function EventsList() {
           <div className="events">
             {noUpcomingEvents() ? (
               <h4 className="no-upcoming-events">
-                "There are no upcoming events in the next 15 days"
+                There are currently no upcoming events. Stay tuned!
               </h4>
             ) : (
               events.map((event) => <Event event={event} />)
