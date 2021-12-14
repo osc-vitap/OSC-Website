@@ -6,7 +6,7 @@ import "./EventsList.css";
 import LoadAnimation from "./LoadAnimation";
 
 const api = axios.create({
-  baseURL: `https://osc-api.herokuapp.com/api`,
+  baseURL: `https://osc-api.herokuapp.com/api/v1`,
 });
 
 function EventsList() {
