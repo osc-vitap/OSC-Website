@@ -107,7 +107,7 @@ function Gallery() {
       imagename: "image 25"
     },
     {
-      imageid: "https://docs.google.com/uc?id=1axq7LRwLyvDzV96GRaES4UNQQZYYSHh",
+      imageid: "https://docs.google.com/uc?id=1axq7LRwLyvDzV96GRaES4UNQQZYYSHh-",
       imagename: "image 26"
     },
     {
