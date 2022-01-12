@@ -1,3 +1,5 @@
+import './GalleryCard.css';
+
 function GalleryCard(props){
     return(
         <div className="galleryCard">

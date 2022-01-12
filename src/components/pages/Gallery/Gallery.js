@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "../../Header/Header";
 import { headerObjNine } from "../../Header/HeaderData";
 import GalleryCard from './GalleryCard';
+import "./Gallery.css"
 
 function Gallery() {
   const id = [
