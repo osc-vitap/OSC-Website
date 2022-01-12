@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from "../../Header/Header";
 import { headerObjNine } from "../../Header/HeaderData";
-import GalleryCard from './GalleryCard';
 import "./Gallery.css"
 
 function Gallery() {
@@ -102,36 +101,30 @@ function Gallery() {
     {
       imageid: "https://docs.google.com/uc?id=1rDd4JgLGrbw40tGh83qRvRZyMKAbCLy5",
       imagename: "image 24"
-    },{
+    },
+    {
       imageid: "https://docs.google.com/uc?id=130PwcozCqDhjxHkgTUShewm89ZL_AZ_j",
       imagename: "image 25"
-    },{
+    },
+    {
       imageid: "https://docs.google.com/uc?id=1axq7LRwLyvDzV96GRaES4UNQQZYYSHh",
       imagename: "image 26"
-    },{
+    },
+    {
       imageid: "https://docs.google.com/uc?id=1z64sYkfsFysXfPN0h3REzrW5cuY2jK2R",
       imagename: "image 27"
     }
   ];
 
   return (
-    <>
+    <React.Fragment>
       <Header {...headerObjNine} />
-      <div className="tclContainer">
-        <div className="Row">
-          {id.map((i) => (
-            <GalleryCard
-              imageID={i.imageid}
-              imageName={i.imagename}
-            />
-          ))}
-        </div>
-      </div>
-      <br />
-      <br />
-      <br />
-      
-    </>
+      <section class = "photo-grid-container">
+        {id.map((i) => (
+          <img class="photo-grid-item" src={i.imageid}/>
+        ))}
+      </section>
+    </React.Fragment>
   );
 }
 

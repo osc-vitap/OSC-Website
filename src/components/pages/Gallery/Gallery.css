@@ -1,49 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito');
-.tclContainer{
-    
-    font-style:'Nunito',sans-serif;
-    padding-bottom: .5rem;
-    padding-top: 3rem;
-    max-width:100%;
+.photo-grid-container {
+    column-count: 5;
+    column-width: 200px;
+    column-gap: 10px;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-
+    max-width: 1600px;
+    margin: auto;
 }
-  @media (min-width: 576px){
-      .tclContainer{
-
-          max-width: 540px;
-      }
-  }
-  @media (min-width: 768px){
-      .tclContainer{
-
-          max-width: 720px;
-      }
-  }
-  @media (min-width: 992px){
-      .tclContainer{
-
-          max-width: 960px;
-      }
-  }
-  @media (min-width: 1200px) {
-      .tclContainer{
-
-          max-width: 1140px;
-      }
-  }
-
-
-.tclContainer .Row{
-    
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    
+.photo-grid-item {
+    border-radius: 20px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    margin: 0 auto 5px;
+    width: 100%;
 }
