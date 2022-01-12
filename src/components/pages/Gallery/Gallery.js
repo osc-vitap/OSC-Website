@@ -119,11 +119,20 @@ function Gallery() {
   return (
     <React.Fragment>
       <Header {...headerObjNine} />
+      <br />
+      <br />
+      <br />
+
       <section class = "photo-grid-container">
         {id.map((i) => (
           <img class="photo-grid-item" src={i.imageid}/>
         ))}
       </section>
+
+      <br />
+      <br />
+      <br />
+      
     </React.Fragment>
   );
 }
