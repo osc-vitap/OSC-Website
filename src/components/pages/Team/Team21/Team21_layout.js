@@ -47,6 +47,15 @@ function Team21_layout() {
       description: "Kind of a pogchamp.",
     },
     {
+      image: vp,
+      name: "Bhargavi Chada",
+      role: "Chairperson",
+      mail: "mailto:bhargavi.19bcn7021@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/bhargavi-chada/",
+      github: "https://github.com/BhargaviChada",
+      description: "I like trains.",
+    },
+     {
       image: dr,
       name: "S.V. Harsha Vardhan",
       role: "Director",
@@ -56,13 +65,31 @@ function Team21_layout() {
       description: "Think different for a better future. ",
     },
     {
-      image: tba,
-      name: "TBA",
-      role: "Chairman",
-      mail: "mailto:adithya.19bce7119@vitap.ac.in",
-      linkedin: "false",
-      github: "false",
-      description: "false",
+      image: sc,
+      name: "Ojasva",
+      role: "Vice President",
+      mail: "mailto:ojasva.20bcn7062@vitap.ac.in ",
+      linkedin: "https://www.linkedin.com/in/ojasva-jain-9958071b2",
+      github: "https://github.com/ojasva",
+      description: "Windows user, but Open source supporter.",
+    },
+    {
+      image: trl,
+      name: "Sai Pranay",
+      role: "Vice President",
+      mail: "mailto:pranay.20bci7061@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/saipranay47/",
+      github: "https://github.com/saipranay47",
+      description: "I build things for the web",
+    },
+    {
+      image: dh,
+      name: "Dhruv Jha",
+      role: "Secretary",
+      mail: "mailto:dhruv.21bce7902@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/dhruv-jha-2002/",
+      github: "https://github.com/fullmeteor172",
+      description: "Not lazy, just on power saving mode ;-;",
     },
     {
       image: lt,
@@ -74,25 +101,6 @@ function Team21_layout() {
       description: "I get really excited when the sky is in pretty colors.",
     },
     {
-      image: vp,
-      name: "Bhargavi Chada",
-      role: "Vice President",
-      mail: "mailto:bhargavi.19bcn7021@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/bhargavi-chada/",
-      github: "https://github.com/BhargaviChada",
-      description: "I like trains.",
-    },
-    
-    {
-      image: sc,
-      name: "Ojasva",
-      role: "Secretary",
-      mail: "mailto:ojasva.20bcn7062@vitap.ac.in ",
-      linkedin: "https://www.linkedin.com/in/ojasva-jain-9958071b2",
-      github: "https://github.com/ojasva",
-      description: "Windows user, but Open source supporter.",
-    },
-    {
       image: pr,
       name: "Tarini",
       role: "Head of public relations",
@@ -102,22 +110,13 @@ function Team21_layout() {
       description: "when day dreams become reality",
     },
     {
-      image: dh,
-      name: "Dhruv Jha",
+      image: ap,
+      name: "Ashutosh Patel",
       role: "Track Lead",
-      mail: "mailto:dhruv.21bce7902@vitapstudent.ac.in",
-      linkedin: "https://www.linkedin.com/in/dhruv-jha-2002/",
-      github: "https://github.com/fullmeteor172",
-      description: "Not lazy, just on power saving mode ;-;",
-    },
-    {
-      image: ang,
-      name: "Angel Maria Stanley",
-      role: "HR Lead",
-      mail: "mailto:maria.21bce7363@vitapstudent.ac.in",
-      linkedin: "https://www.linkedin.com/in/angel-stanly-218a0893/",
-      github: "https://github.com/Maiden23",
-      description: "If you gonna cry here, you might as well cry in paris",
+      mail: "mailto:ashutosh.20bce7053@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/ashutosh-patel-a828a4221/",
+      github: "https://github.com/ashu168",
+      description: "Don't complain just work harder",
     },
   ];
 
@@ -141,22 +140,22 @@ function Team21_layout() {
       description: "Soon, We Are Going to Live in the Era of AI.",
     },
     {
-      image: trl,
-      name: "Sai Pranay",
+      image: ar,
+      name: "Aryan Mohanty",
       role: "Technical Lead",
-      mail: "mailto:pranay.20bci7061@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/saipranay47/",
-      github: "https://github.com/saipranay47",
-      description: "I build things for the web",
+      mail: "mailto:aryan.21bce8377@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/aryan-mohanty-230160221/",
+      github: "https://GitHub.com/AryanVIT",
+      description: "Better never means better for everyone, it always means worse for some",
     },
     {
-      image: dh,
-      name: "Dhruv Jha",
+      image: ap,
+      name: "Ashutosh Patel",
       role: "Track Lead",
-      mail: "mailto:dhruv.21bce7902@vitapstudent.ac.in",
-      linkedin: "https://www.linkedin.com/in/dhruv-jha-2002/",
-      github: "https://github.com/fullmeteor172",
-      description: "Not lazy, just on power saving mode ;-;",
+      mail: "mailto:ashutosh.20bce7053@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/ashutosh-patel-a828a4221/",
+      github: "https://github.com/ashu168",
+      description: "Don't complain just work harder",
     },
     {
       image: md,
@@ -176,24 +175,6 @@ function Team21_layout() {
       github: "https://github.com/BINDHUMADHAVAVARMA",
       description:
         "I think, fundamentally, open source does tend to be more stable software. It's the right way to do things.",
-    },
-    {
-      image: ap,
-      name: "Ashutosh Patel",
-      role: "Developer",
-      mail: "mailto:ashutosh.20bce7053@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/ashutosh-patel-a828a4221/",
-      github: "https://github.com/ashu168",
-      description: "Don't complain just work harder",
-    },
-    {
-      image: ar,
-      name: "Aryan Mohanty",
-      role: "Developer",
-      mail: "mailto:aryan.21bce8377@vitapstudent.ac.in",
-      linkedin: "https://www.linkedin.com/in/aryan-mohanty-230160221/",
-      github: "https://GitHub.com/AryanVIT",
-      description: "Better never means better for everyone, it always means worse for some",
     },
     {
       image: lk,
@@ -226,7 +207,6 @@ function Team21_layout() {
       description:
         "I want to put culture on a track so that it becomes more inclusive, more open source.",
     },
-
     {
       image: om,
       name: "Sabareesh Reddy",
@@ -315,6 +295,9 @@ function Team21_layout() {
       github: "https://github.com/praseedakallakuri",
       description: "creative soul!!",
     },
+  ];
+
+  const hr = [
     {
       image: ang,
       name: "Angel Maria Stanley",
@@ -325,7 +308,6 @@ function Team21_layout() {
       description: "If you gonna cry here, you might as well cry in paris",
     },
   ];
-
   return (
     <React.Fragment>
       <section>
@@ -424,6 +406,29 @@ function Team21_layout() {
         <div className="tclContainer">
           <div className="Row">
             {design.map((i) => (
+              <TeamCard
+                image={i.image}
+                name={i.name}
+                role={i.role}
+                mail={i.mail}
+                linkedin={i.linkedin}
+                github={i.github}
+                description={i.description}
+              />
+            ))}
+          </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+
+        <div className="board-category5">
+          <div className="category-title">Human Resourses.</div>
+        </div>
+        <div className="tclContainer">
+          <div className="Row">
+            {hr.map((i) => (
               <TeamCard
                 image={i.image}
                 name={i.name}
