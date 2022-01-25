@@ -7,7 +7,7 @@
 }
 
 
-.container{
+.eb-container{
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -16,7 +16,7 @@
   background: #f3f3f3;
 }
 
-.card{
+.eb-card{
   width: 25rem;
   border-radius: 1rem;
   background: white;
@@ -25,7 +25,7 @@
   color: #434343;
 }
 
-.card .card__container{
+.eb-card .card__container{
   padding : 2rem;
   width: 100%;
   height: 100%;
@@ -34,16 +34,16 @@
   position: relative;
 }
 
-.card .card__header{
+.eb-card .card__header{
   margin-bottom: 1rem;
   font-family: 'Playfair Display', serif;
 }
 
-.card .card__body{
+.eb-card .card__body{
   font-family: 'Roboto', sans-serif;
 }
 
-.card::before{
+.eb-card::before{
   position: absolute;
   top:2rem;
   right:-0.5rem;
@@ -54,7 +54,7 @@
   transform : rotate(45deg);
 }
 
-.card::after{
+.eb-card::after{
   position: absolute;
   content: attr(data-label);
   top: 11px;

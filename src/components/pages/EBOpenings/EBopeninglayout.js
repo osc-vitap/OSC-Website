@@ -1,5 +1,5 @@
 import React from 'react';
-import EBcard from "./EBcard";
+import EBcard from "./EBcard.js";
 import "./EBopeninglayout.css";
 
 function EBopeninglayout() {
