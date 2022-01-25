@@ -6,13 +6,13 @@ import CC from "./../../../../images/team/profasish.jpg";
 import ph from "./../../../../images/team/ph.png";
 import cl from "./../../../../images/team/eb21/Vijay_CommunityLead.PNG";
 import cp from "./../../../../images/team/eb21/Adithya_President.JPG";
-import vp from "./../../../../images/team/eb21/Bhargavi_VicePresident.jpeg";
+import vp from "./../../../../images/team/eb21/Bhargavi_Chairperson.jpeg";
 import dr from "./../../../../images/team/harsha.png";
 import pr from "./../../../../images/team/eb21/Tarini_HeadOfPublicRelations.jpg";
 import sc from "./../../../../images/team/eb21/Ojasva_Secretary.jpeg";
 import tl1 from "./../../../../images/team/eb21/Krishna Raj_TechLead.jpg";
 import tl2 from "./../../../../images/team/eb21/Madhav_TechLead.jpg";
-import trl from "./../../../../images/team/eb21/SaiPranay_TrackLead.jpg";
+import trl from "./../../../../images/team/eb21/SaiPranay_VicePresident.jpg";
 import md from "./../../../../images/team/eb21/MaheshDasika_TechDepartment.jpg";
 import bmd from "./../../../../images/team/eb21/BindhuMadhav_TechDepartment.jpg";
 import el2 from "./../../../../images/team/eb21/Chethan_EventLead.jpg";
@@ -21,9 +21,9 @@ import om from "./../../../../images/team/eb21/Sabareesh_SocialMediaLead.jpg";
 import ce from "./../../../../images/team/eb21/chirag_ChiefEditor.jpg";
 import mel from "./../../../../images/team/eb21/maruti.png";
 import kc from "./../../../../images/team/eb21/KAARTHIK SAI.jpeg";
-import ap from "./../../../../images/team/eb21/Ashutosh_Developer.jpg";
-import dh from "./../../../../images/team/eb21/dhruv_Track lead.jfif";
-import ar from "./../../../../images/team/eb21/Aryan_Developer.jpg";
+import ap from "./../../../../images/team/eb21/Ashutosh_TrackLead.jpg";
+import dh from "./../../../../images/team/eb21/dhruv_Secretary.jfif";
+import ar from "./../../../../images/team/eb21/Aryan_TechnicalLead.jpg";
 import ra from "./../../../../images/team/eb21/RahulAllokan_Event Department.jpg";
 import lt from "./../../../../images/team/eb21/LaxmiTeja_Treasurer.jpg";
 import ss from "./../../../../images/team/eb21/shaket_documentation specialist.jpg";
@@ -31,8 +31,8 @@ import ni from "./../../../../images/team/eb21/Nishita_Event Department.jpeg";
 import pm from "./../../../../images/team/eb21/MounikaPraseeda_CreativeDepart.jpg";
 import lk from "./../../../../images/team/eb21/Loukya_Front-End designer.jpeg";
 import tba from "./../../../../images/team/eb21/tba.webp";
-import ang from "./../../../../images/team/eb21/Angel_HR Lead.jpg";
-
+import ang from "./../../../../images/team/eb21/Angel_HRLead.jpg";
+import ana from "./../../../../images/team/eb21/Anas_HRManager.jpg";
 
 function Team21_layout() {
   const core = [
@@ -306,6 +306,15 @@ function Team21_layout() {
       linkedin: "https://www.linkedin.com/in/angel-stanly-218a0893/",
       github: "https://github.com/Maiden23",
       description: "If you gonna cry here, you might as well cry in paris",
+    },
+    {
+      image: ana,
+      name: "Mohammed Anas Shakil Kazi",
+      role: "HR Manager",
+      mail: "mailto:shakil.21bce7917@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/anas-kazi-88a064216/",
+      github: "https://github.com/BlazingPh0enix",
+      description: "Wearing a MASK all the time...",
     },
   ];
   return (
