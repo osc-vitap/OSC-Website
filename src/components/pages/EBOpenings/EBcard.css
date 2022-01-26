@@ -1,128 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-*, *::before, *::after{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&family=PT+Sans&display=swap");
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-
-
-.eb-container{
-  width: 50%;
-  height: 20rem;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  background: #f3f3f3;
+.eb-container {
+    width: 50%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
 }
 
-.eb-card{
-  width: 27rem;
-  border-radius: 1rem;
-  background: white;
-  box-shadow: 4px 4px 15px rgba(#000, 0.15);
-  position : relative;
-  color: #434343;
-  max-width: 90vw;
+.eb-card {
+    width: 27rem;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 4px 4px 15px rgba(#000, 0.15);
+    position: relative;
+    color: #434343;
+    max-width: 90vw;
 }
 
- .card__container{
-  padding : 2rem;
-  width: 27rem;
-  height: 18rem;
-  background: white;
-  border-radius: 1rem;
-  position: relative;
-  max-width: 90vw;
-
+.card__container {
+    padding: 2rem;
+    width: 27rem;
+    height: 18rem;
+    background: white;
+    border-radius: 1rem;
+    position: relative;
+    max-width: 90vw;
 }
 
- .card__header{
-  margin-bottom: 1rem;
-  font-family: 'PT Sans', serif;
-  font-weight: 500;
-  margin-top: 17px;
+.card__header {
+    margin-bottom: 1rem;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    margin-top: 17px;
 }
 
- .card__body{
-  font-family: 'Roboto', sans-serif;
+.card__body {
+    font-family: "Inter", sans-serif;
+    text-align: justify;
 }
 
-.eb-card::before{
-  position: absolute;
-  top:2rem;
-  right:-0.5rem;
-  content: '';
-  background: #283593;
-  height: 28px;
-  width: 28px;
+.eb-card::before {
+    position: absolute;
+    top: 2rem;
+    right: -0.5rem;
+    content: "";
+    background: #283593;
+    height: 28px;
+    width: 28px;
 
-  transform : rotate(45deg);
+    transform: rotate(45deg);
 }
 
-.eb-card::after{
-  position: absolute;
-  content: attr(data-label);
-  top: 11px;
-  right: -14px;
-  padding: 0.5rem;
-  width: 10rem;
-  background: #3949ab;
-  color: white;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+.eb-card::after {
+    position: absolute;
+    content: attr(data-label);
+    top: 11px;
+    right: -14px;
+    padding: 0.5rem;
+    width: 10rem;
+    background: #3949ab;
+    color: white;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
 }
-.button1 a{
-  text-decoration: none;
-  padding: 5px;
-  color:#3949ab;
-  font-family: 'Roboto', sans-serif;
-  margin:10px;
-  height: 30px;
-     width: 90px;
-
-     
- }
+.button1 a {
+    text-decoration: none;
+    padding: 5px;
+    color: #3949ab;
+    font-family: "Inter", sans-serif;
+    margin: 10px;
+    height: 30px;
+    width: 90px;
+}
 
 @media (max-width: 1004px) {
-  .eb-container{
-    width: 70%;
-  
-  }
+    .eb-container {
+        width: 70%;
+    }
 }
- .button {
-     background-color: #4CAF50; 
-     border: none;
-     color: white;
-     padding: 5px 13px;
-     
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 16px;
-     margin: 7px 2px;
-     transition-duration: 0.4s;
-     cursor: pointer;
-     border-radius: 5px;
-     position:absolute;
-     bottom:1rem;
+.button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 5px 13px;
 
-   }
-   .button1 {
-     background-color: white; 
-     color:#012497bb ; 
-     border: 2px solid #012497bb;
-   }
-   a:hover{
-   color: white;
-   }
-   .button1:hover {
-     background-color: #012497bb;
-     color: white;
-   }
-   .hide{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 1rem;
+}
+.button1 {
+    background-color: white;
+    color: #012497bb;
+    border: 2px solid #012497bb;
+}
+a:hover {
+    color: white;
+}
+.button1:hover {
+    background-color: #012497bb;
+    color: white;
+}
+.hide {
     display: none;
-  }
-
+}

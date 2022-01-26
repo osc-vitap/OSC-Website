@@ -1,58 +1,46 @@
-
 .board-category {
     background-color: #10dde6;
     height: 200px;
-  }
+}
 
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito');
-.tclContainer{
-    margin-top:3rem;
-    font-style:'Nunito',sans-serif;
-    padding-bottom: .5rem;
+@import url("https://fonts.googleapis.com/css2?family=Nunito");
+.tclContainer {
+    margin-top: 3rem;
+    font-style: "Nunito", sans-serif;
+    padding-bottom: 0.5rem;
     background: #f3f3f3;
-    max-width:100%;
+    max-width: 100%;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-
 }
-  @media (min-width: 576px){
-      .tclContainer{
+@media (min-width: 576px) {
+    .tclContainer {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .tclContainer {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .tclContainer {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .tclContainer {
+        max-width: 1140px;
+    }
+}
 
-          max-width: 540px;
-      }
-  }
-  @media (min-width: 768px){
-      .tclContainer{
-
-          max-width: 720px;
-      }
-  }
-  @media (min-width: 992px){
-      .tclContainer{
-
-          max-width: 960px;
-      }
-  }
-  @media (min-width: 1200px) {
-      .tclContainer{
-
-          max-width: 1140px;
-      }
-  }
-
-
- .Row{
-    
+.Row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    
-} 
+}

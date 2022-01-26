@@ -3,8 +3,6 @@ import './EBcard.css';
 
 function EBcard(props){
     return(
-
-
         <div className="eb-container">
             <div className="eb-card" data-label={(props.vacancy ? "Position Open" : "No Vacancy")} >
                 <div className="card__container">
