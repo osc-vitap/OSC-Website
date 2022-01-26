@@ -1,25 +1,7 @@
-.container_card{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #000000;
-    height: 100%;
-    min-height: 100vh;
-    padding: 3%;
 
-}
 .board-category {
     background-color: #10dde6;
     height: 200px;
-  }
-.card_1 {
-    height: 500px;
-    width: 400px;
-    background: linear-gradient(90deg, rgba(12,9,64,1) 0%, rgba(60,15,112,1) 35%, rgba(203, 10, 88,1) 100%);
-    border-radius: 20px;
-    margin: 3%;
   }
 
 
@@ -27,10 +9,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito');
 .tclContainer{
-    
+    margin-top:3rem;
     font-style:'Nunito',sans-serif;
     padding-bottom: .5rem;
-    padding-top: 3rem;
+    background: #f3f3f3;
     max-width:100%;
     width: 100%;
     padding-right: 15px;
@@ -65,7 +47,7 @@
   }
 
 
-.tclContainer .Row{
+ .Row{
     
     display: flex;
     justify-content: center;
