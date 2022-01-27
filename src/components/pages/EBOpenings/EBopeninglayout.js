@@ -93,8 +93,8 @@ function EBopeninglayout() {
                 <div className="board-category">
                     <div className="category-title">Core.</div>
                 </div>
-                <div className="tclContainer">
-                    <div className="Row">
+                <div className="tclContainerB">
+                    <div className="RowB">
                         {core.map((i) => (
                             <EBcard
                                 role={i.role}
@@ -112,8 +112,8 @@ function EBopeninglayout() {
                 <div className="board-category">
                     <div className="category-title">Tech.</div>
                 </div>
-                <div className="tclContainer">
-                    <div className="Row">
+                <div className="tclContainerB">
+                    <div className="RowB">
                         {tech.map((i) => (
                             <EBcard
                                 role={i.role}
@@ -131,8 +131,8 @@ function EBopeninglayout() {
                 <div className="board-category">
                     <div className="category-title">Events.</div>
                 </div>
-                <div className="tclContainer">
-                    <div className="Row">
+                <div className="tclContainerB">
+                    <div className="RowB">
                         {events.map((i) => (
                             <EBcard
                                 role={i.role}
@@ -150,8 +150,8 @@ function EBopeninglayout() {
                 <div className="board-category">
                     <div className="category-title">Design.</div>
                 </div>
-                <div className="tclContainer">
-                    <div className="Row">
+                <div className="tclContainerB">
+                    <div className="RowB">
                         {design.map((i) => (
                             <EBcard
                                 role={i.role}

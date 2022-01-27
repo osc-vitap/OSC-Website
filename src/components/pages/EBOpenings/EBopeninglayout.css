@@ -4,10 +4,11 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito");
-.tclContainer {
-    margin-top: 3rem;
+.tclContainerB {
+    margin-top: 4rem;
     font-style: "Nunito", sans-serif;
-    padding-bottom: 0.5rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
     background: #f3f3f3;
     max-width: 100%;
     width: 100%;
@@ -17,27 +18,27 @@
     margin-left: auto;
 }
 @media (min-width: 576px) {
-    .tclContainer {
+    .tclContainerB {
         max-width: 540px;
     }
 }
 @media (min-width: 768px) {
-    .tclContainer {
+    .tclContainerB {
         max-width: 720px;
     }
 }
 @media (min-width: 992px) {
-    .tclContainer {
+    .tclContainerB {
         max-width: 960px;
     }
 }
 @media (min-width: 1200px) {
-    .tclContainer {
+    .tclContainerB {
         max-width: 1140px;
     }
 }
 
-.Row {
+.RowB {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
