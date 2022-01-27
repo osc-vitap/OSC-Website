@@ -13,14 +13,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f3f3f3;
+    background: #ffffff;
 }
 
 .eb-card {
     width: 27rem;
     border-radius: 1rem;
     background: white;
-    box-shadow: 4px 4px 15px rgba(#000, 0.15);
+    box-shadow:  4px 4px 15px rgba(0, 0, 0, 0.65);
     position: relative;
     color: #434343;
     max-width: 90vw;
