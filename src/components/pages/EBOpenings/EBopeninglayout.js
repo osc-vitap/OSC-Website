@@ -86,6 +86,23 @@ function EBopeninglayout() {
             vacancy: false,
         },
     ];
+    const hrdept = [
+        {
+            role: "HR Lead",
+            roled: "They’re a critical asset when it comes to managing staff, and addressing disputes within a club. From every angle of the work space, they help guide the direction of day-to-day activities, facilitating decisions. ",
+            vacancy: false,
+        },
+        {
+            role: "HR Manager",
+            roled: "The HR Manager is responsible for members policies and procedures, rewards and recognition programs as well as managing workplace safety initiatives.",
+            vacancy: false,
+        },
+        {
+            role: "HR Coordinator",
+            roled: "Human Resources coordinator multitasks through actively participating by analyzing members turnover and retention, addressing important matter of the members and organizing work activities for a club.",
+            vacancy: false,
+        },
+    ]
 
     return (
         <React.Fragment>
@@ -148,6 +165,25 @@ function EBopeninglayout() {
                 <br />
 
                 <div className="board-category">
+                    <div className="category-title">Human Resources.</div>
+                </div>
+                <div className="tclContainerB">
+                    <div className="RowB">
+                        {hrdept.map((i) => (
+                            <EBcard
+                                role={i.role}
+                                roled={i.roled}
+                                vacancy={i.vacancy}
+                            />
+                        ))}
+                    </div>
+                </div>
+
+                <br />
+                <br />
+                <br />
+
+                <div className="board-category">
                     <div className="category-title">Design.</div>
                 </div>
                 <div className="tclContainerB">
@@ -161,6 +197,8 @@ function EBopeninglayout() {
                         ))}
                     </div>
                 </div>
+                <br />
+                <br />
             </section>
         </React.Fragment>
     );
