@@ -89,7 +89,7 @@ function EBopeninglayout() {
     const hrdept = [
         {
             role: "HR Lead",
-            roled: "They’re a critical asset when it comes to managing staff, and addressing disputes within a club. From every angle of the work space, they help guide the direction of day-to-day activities, facilitating decisions. ",
+            roled: "They’re a critical asset when it comes to managing staff, and addressing disputes within a club. They help guide the direction of day-to-day activities, facilitating decisions. ",
             vacancy: false,
         },
         {
@@ -99,7 +99,7 @@ function EBopeninglayout() {
         },
         {
             role: "HR Coordinator",
-            roled: "Human Resources coordinator multitasks through actively participating by analyzing members turnover and retention, addressing important matter of the members and organizing work activities for a club.",
+            roled: "Human Resources coordinator multitasks through actively participating by analyzing members turnover and retention, addressing important matter of the members.",
             vacancy: false,
         },
     ]

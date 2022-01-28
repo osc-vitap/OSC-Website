@@ -13,8 +13,6 @@
   /* height: 160px; */
   padding: 20px;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 20px;
 }
 
@@ -28,21 +26,30 @@
   color: #ffffff;
   align-self: flex-start;
   margin-left: 10px;
+  display: inline;
 }
+
+
 
 @media screen and (max-width: 800px) {
   .teams-general-box {
-    height: 200px;
+    
   }
 
   .teams-general-title {
     font-size: 30px;
-    padding-top: 12%;
+    
   }
 
   .teams-general-subtitle {
     color: #fd9ebe;
     align-self: flex-start;
     margin-left: 10px;
+  }
+}
+
+@media screen and (min-width:396px) {
+  .linktag{
+    float: right;
   }
 }
