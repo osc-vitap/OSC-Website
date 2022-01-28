@@ -33,6 +33,22 @@ import lk from "./../../../../images/team/eb21/Loukya_Front-End designer.jpeg";
 import tba from "./../../../../images/team/eb21/tba.webp";
 import ang from "./../../../../images/team/eb21/Angel_HRLead.jpg";
 import ana from "./../../../../images/team/eb21/Anas_HRManager.jpg";
+import va from "./../../../../images/team/eb21/Varshita_HRManager.jpg";
+import ak from "./../../../../images/team/eb21/Akhil_HRManager.JPG";
+import ru from "./../../../../images/team/eb21/Ruchith_HRCoordinator.png";
+import ms from "./../../../../images/team/eb21/Shreya_HRCoordinator.png";
+import ji from "./../../../../images/team/eb21/Jai_Developer.png"
+import adi from "./../../../../images/team/eb21/Aditya_Head Of Marketing.jpg"
+import se from "./../../../../images/team/eb21/Eeshwar_Organiser.jpg"
+import so from "./../../../../images/team/eb21/Soundarya_Organiser.jpeg"
+import apo from "./../../../../images/team/eb21/Apoorva_Head Of Videography.jpeg"
+import po from "./../../../../images/team/eb21/Pooja_Designer.jpg"
+import sree from "./../../../../images/team/eb21/Sreeja_Designer.jpg"
+import sre from "./../../../../images/team/eb21/Sreekar_Documentation specialist.jpg"
+import ya from "./../../../../images/team/eb21/Yash_Designer.jpg"
+import ca from "./../../../../images/team/eb21/Chandra_Developer.jpg"
+import kr from "./../../../../images/team/eb21/Krishna_Developer.jpeg"
+//import jai from "./../../../../images/team/eb21/jaitra_Developer.jpg"
 
 function Team21_layout() {
   const core = [
@@ -185,6 +201,42 @@ function Team21_layout() {
       github: "https://github.com/A-Loukya",
       description: "I love front-end designing",
     },
+    {
+      image: ji,
+      name: "Jai Gaurav",
+      role: "Developer",
+      mail: "mailto:gaurav.21bce7193@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/jai-gaurav-092656228/",
+      github: "https://github.com/StormJay07",
+      description: "Set your aim to be the best among the best, not worse amongst the worst",
+    },
+    {
+      image: kr,
+      name: "Patil Krishna Reddy",
+      role: "Developer",
+      mail: "mailto:krishna.21bce8145@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/krishna-reddy-399093222/",
+      github: "https://github.com/Krishna1081",
+      description: "Don't be the same, be better.",
+    },
+    {
+      image: ca,
+      name: "Chandra Kiran Reddy Avula",
+      role: "Developer",
+      mail: "mailto:chandrakiran.21bce7814@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/chandra-kiran-reddy-avula-69038a123/",
+      github: "https://github.com/ackr-8",
+      description: "BTW I use Arch!",
+    },
+    /*{
+      image: jai,
+      name: "Jaitra Venkiteela",
+      role: "Developer",
+      mail: "mailto:Venkiteela.21bce7243@vitapstudent.ac.in",
+      linkedin: "",
+      github: "https://github.com/Boomer3110",
+      description: "",
+    },*/
   ];
 
   const events = [
@@ -234,8 +286,34 @@ function Team21_layout() {
       mail: "mailto:nishita.21bce8684@vitapstudent.ac.in",
       linkedin: "",
       github: "",
-      description:
-        "The power of Open Source is the power of the people. The people rule.",
+      description: "The power of Open Source is the power of the people. The people rule.",
+    },
+    {
+      image: se,
+      name: "Sai Eeshwar D",
+      role: "Organiser",
+      mail: "mailto:eeshwar.21bce8935@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/sai-eeshwar-d-5a590922b/",
+      github: "https://github.com/EESH-843",
+      description: "Alexa, finish my degree",
+    },
+    {
+      image: so,
+      name: "R. Soundarya",
+      role: "Organiser",
+      mail: "mailto:soundarya.20bce7307@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/soundarya-ravikumar-0819661b8/",
+      github: "https://github.com/Soundarya003",
+      description: "Live the moment pata nahi kal ho na ho",
+    },
+    { 
+      image: adi,
+      name: "Aditya Papriwal",
+      role: "Head Of Marketing",
+      mail: "mailto:aditya.21bce8747@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/aditya-papriwal-110912223",
+      github: "https://github.com/Aditya-1008",
+      description: "We're just two lost souls",
     },
   ];
 
@@ -269,6 +347,15 @@ function Team21_layout() {
         "I have really become a huge believer in the power of open source.",
     },
     {
+      image: apo,
+      name: "Apoorva Parashar",
+      role: "Head of videography",
+      mail: "mailto:apoorva.21bce7574@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/apoorva-parashar-512bb722a/",
+      github: "https://github.com/ApoorvaPa",
+      description: "Learning to dance in the Rain",
+    },
+    {
       image: ss,
       name: "Sai Shaket Kalivarapu",
       role: "Documentation specialist",
@@ -276,6 +363,15 @@ function Team21_layout() {
       linkedin: "https://www.linkedin.com/in/sai-shaket-kalivarapu-51327618a/",
       github: "https://github.com/KilluaZ06",
       description: "I try to be the fun one",
+    },
+    {
+      image: sre,
+      name: "Vadakattu Sreekar",
+      role: "Documentation specialist",
+      mail: "mailto:sreekar.20bci7043@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/sreekar-vadakattu-8a54361b2/",
+      github: "https://github.com/Sreekar22",
+      description: "Live everyday as it's your first and last day",
     },
     {
       image: trl,
@@ -291,9 +387,36 @@ function Team21_layout() {
       name: "Praseeda kallakuri",
       role: "Designer",
       mail: "mailto:praseedha.21bce8649@vitapstudent.ac.in",
-      linkedin: "https://www.linkedin.com/in/praseeda-kallakuri-970334221",
+      linkedin: "https://www.linkedin.com/in/praseeda-kallakuri-970334221/",
       github: "https://github.com/praseedakallakuri",
       description: "creative soul!!",
+    },
+    {
+      image: po,
+      name: "Pooja",
+      role: "Designer",
+      mail: "mailto:pooja.20bce7630@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/pooja-chowdhary-15501022b/",
+      github: "https://github.com/Poojachowdhary07",
+      description: "People say nothing is impossible but i do nothing everyday",
+    },
+    {
+      image: sree,
+      name: "Sai Sreeja",
+      role: "Designer",
+      mail: "mailto:sreeja.20bcd7238@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/mwlite/in/sai-sreeja-64325721b",
+      github: "https://github.com/sr-19",
+      description: "sleep, eat, watch movies, repeat!",
+    },
+    {
+      image: ya,
+      name: "Yash Daga",
+      role: "Designer",
+      mail: "mailto:yash.20bce7323@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/yashdaga17/",
+      github: "https://github.com/YashDaga17",
+      description: "The darkness declares the glory of light.",
     },
   ];
 
@@ -315,6 +438,42 @@ function Team21_layout() {
       linkedin: "https://www.linkedin.com/in/anas-kazi-88a064216/",
       github: "https://github.com/BlazingPh0enix",
       description: "Wearing a MASK all the time...",
+    },
+    {
+      image: va,
+      name: "Dollu Vakuladevi",
+      role: "HR Manager",
+      mail: "mailto:vakuladevi.19bce7061@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/varshita-dollu-a3b43a197/",
+      github: "https://github.com/varshita-web",
+      description: "Life is full of dhokebaaz people",
+    },
+    {
+      image: ak,
+      name: "Gudiseva Akhil",
+      role: "HR Manager",
+      mail: "mailto:akhil.21bba7006@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/gudiseva-akhil-000825222/",
+      github: "https://github.com/AkhilGudiseva",
+      description: "I refuse your refusal",
+    },
+    {
+      image: ru,
+      name: "Ruchith Reddy",
+      role: "HR Co-ordinator",
+      mail: "mailto:ruchith.20bce7241@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/ruchith-reddy-64ba6a22b/",
+      github: "https://github.com/Ruchith07",
+      description: "The best place to hide a dead body is the second page of Google search",
+    },
+    {
+      image: ms,
+      name: "M S Shreya",
+      role: "HR Co-ordinator",
+      mail: "mailto:shreya.21bce7228@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/shreya-m-s-1a0425220/",
+      github: "https://github.com/Shreya110204",
+      description: "My very Existence sucks",
     },
   ];
   return (
