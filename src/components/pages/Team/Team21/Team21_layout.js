@@ -11,10 +11,8 @@ import dr from "./../../../../images/team/harsha.png";
 import pr from "./../../../../images/team/eb21/Tarini_HeadOfPublicRelations.jpg";
 import sc from "./../../../../images/team/eb21/Ojasva_Secretary.jpeg";
 import tl1 from "./../../../../images/team/eb21/Krishna Raj_TechLead.jpg";
-import tl2 from "./../../../../images/team/eb21/Madhav_TechLead.jpg";
 import trl from "./../../../../images/team/eb21/SaiPranay_VicePresident.jpg";
 import md from "./../../../../images/team/eb21/MaheshDasika_TechDepartment.jpg";
-import bmd from "./../../../../images/team/eb21/BindhuMadhav_TechDepartment.jpg";
 import el2 from "./../../../../images/team/eb21/Chethan_EventLead.jpg";
 import eo from "./../../../../images/team/eb21/Abhiram_HeadOfVideographyAndEventOrg.jpg";
 import om from "./../../../../images/team/eb21/Sabareesh_SocialMediaLead.jpg";
@@ -147,15 +145,6 @@ function Team21_layout() {
       description: "Octocats never die, they only Evolve 😎.",
     },
     {
-      image: tl2,
-      name: "Madhav",
-      role: "Technical Lead",
-      mail: "mailto:surya.19bcn7228@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/gvssmadhav",
-      github: "https://github.com/gvssaimadhav",
-      description: "Soon, We Are Going to Live in the Era of AI.",
-    },
-    {
       image: ar,
       name: "Aryan Mohanty",
       role: "Technical Lead",
@@ -183,16 +172,6 @@ function Team21_layout() {
       description: "Tech and Auto enthusiast",
     },
     {
-      image: bmd,
-      name: "Bindhu madhav",
-      role: "Developer",
-      mail: "mailto:bindhu.19bcd7116@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/bindhu-madhav-varma-c-58140b1aa/",
-      github: "https://github.com/BINDHUMADHAVAVARMA",
-      description:
-        "I think, fundamentally, open source does tend to be more stable software. It's the right way to do things.",
-    },
-    {
       image: lk,
       name: "Loukya",
       role: "Developer",
@@ -200,6 +179,15 @@ function Team21_layout() {
       linkedin: "https://www.linkedin.com/in/adepu-loukya-67a345221/",
       github: "https://github.com/A-Loukya",
       description: "I love front-end designing",
+    },
+    {
+      image: trl,
+      name: "Sai Pranay",
+      role: "Developer",
+      mail: "mailto:pranay.20bci7061@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/saipranay47/",
+      github: "https://github.com/saipranay47",
+      description: "I build things for the web",
     },
     {
       image: ji,
@@ -260,24 +248,22 @@ function Team21_layout() {
         "I want to put culture on a track so that it becomes more inclusive, more open source.",
     },
     {
-      image: om,
-      name: "Sabareesh Reddy",
-      role: "Social Media Lead",
-      mail: "mailto:sabareesh.19bce7210@vitap.ac.in",
-      linkedin:
-        "https://www.linkedin.com/in/sabareesh-reddy-chowkacherla-6834a6196/",
-      github: "https://github.com/Sabareesh000",
-      description:
-        "In real open source, you have the right to control your own destiny.",
-    },
-    {
       image: ra,
       name: "Rahul Alokkan",
-      role: "Organizer",
+      role: "Event Lead",
       mail: "mailto:rahul.20bcn7006@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/rahul-alokkan-16384b196/",
       github: "https://github.com/Rahul-Alokkan",
       description: "Tech Entusiast ",
+    },
+    {
+      image: kc,
+      name: "Kaarthik",
+      role: "Head of Marketing",
+      mail: "mailto:Kaarthik.19bcd7142@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/kaarthik-patibandla-30017219a/",
+      github: "https://github.com/tatiniG/",
+      description: "That which does not kill us makes us stronger ",
     },
     {
       image: ni,
@@ -317,24 +303,26 @@ function Team21_layout() {
     },
   ];
 
-  const design = [
+  const creative = [
     {
-      image: kc,
-      name: "Kaarthik",
-      role: "Head of Marketing",
-      mail: "mailto:Kaarthik.19bcd7142@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/kaarthik-patibandla-30017219a/",
-      github: "https://github.com/tatiniG/",
-      description: "That which does not kill us makes us stronger ",
+      image: om,
+      name: "Sabareesh Reddy",
+      role: "Creative Lead",
+      mail: "mailto:sabareesh.19bce7210@vitap.ac.in",
+      linkedin:
+        "https://www.linkedin.com/in/sabareesh-reddy-chowkacherla-6834a6196/",
+      github: "https://github.com/Sabareesh000",
+      description:
+        "In real open source, you have the right to control your own destiny.",
     },
     {
-      image: ce,
-      name: "Chirag",
+      image: ss,
+      name: "Sai Shaket Kalivarapu",
       role: "Chief Editor",
-      mail: "mailto:chirag.20bce7453@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/chirag-gupta-8a16161ba",
-      github: "https://github.com/chiragg06",
-      description: "I overthink the niche.",
+      mail: "mailto:shaket.19bce7547@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/sai-shaket-kalivarapu-51327618a/",
+      github: "https://github.com/KilluaZ06",
+      description: "I try to be the fun one",
     },
     {
       image: eo,
@@ -356,13 +344,13 @@ function Team21_layout() {
       description: "Learning to dance in the Rain",
     },
     {
-      image: ss,
-      name: "Sai Shaket Kalivarapu",
+      image: ce,
+      name: "Chirag",
       role: "Documentation specialist",
-      mail: "mailto:shaket.19bce7547@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/sai-shaket-kalivarapu-51327618a/",
-      github: "https://github.com/KilluaZ06",
-      description: "I try to be the fun one",
+      mail: "mailto:chirag.20bce7453@vitap.ac.in",
+      linkedin: "https://www.linkedin.com/in/chirag-gupta-8a16161ba",
+      github: "https://github.com/chiragg06",
+      description: "I overthink the niche.",
     },
     {
       image: sre,
@@ -569,11 +557,11 @@ function Team21_layout() {
         <br />
 
         <div className="board-category4">
-          <div className="category-title">Design.</div>
+          <div className="category-title">Creative.</div>
         </div>
         <div className="tclContainer">
           <div className="Row">
-            {design.map((i) => (
+            {creative.map((i) => (
               <TeamCard
                 image={i.image}
                 name={i.name}
