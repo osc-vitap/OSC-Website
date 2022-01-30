@@ -46,7 +46,7 @@ import sre from "./../../../../images/team/eb21/Sreekar_Documentation specialist
 import ya from "./../../../../images/team/eb21/Yash_Designer.jpg"
 import ca from "./../../../../images/team/eb21/Chandra_Developer.jpg"
 import kr from "./../../../../images/team/eb21/Krishna_Developer.jpeg"
-import jai from "./../../../../images/team/eb21/jaitra_Developer.jpg"
+import jai from "./../../../../images/team/eb21/jaitra_Developer.png"
 
 function Team21_layout() {
   const core = [
