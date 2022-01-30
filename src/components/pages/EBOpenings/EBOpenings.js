@@ -1,14 +1,13 @@
 import React from 'react';
 import Header from "../../Header/Header";
 import { headerObjEleven } from "../../Header/HeaderData";
+import EBopeninglayout from './EBopeninglayout';
 
 function EBOpenings() {
   return (
     <>
       <Header {...headerObjEleven} />
-      <div className="board-category5">
-        <div className="category-title">Coming Soon</div>
-      </div>
+      <EBopeninglayout/>
     </>
   );
 }

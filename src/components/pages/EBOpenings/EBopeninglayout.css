@@ -1,0 +1,47 @@
+.board-category {
+    background-color: #10dde6;
+    height: 200px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito");
+.tclContainerB {
+    margin-top: 4rem;
+    font-style: "Nunito", sans-serif;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    background: #ffffff;
+    max-width: 100%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+    .tclContainerB {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .tclContainerB {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .tclContainerB {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .tclContainerB {
+        max-width: 1140px;
+    }
+}
+
+.RowB {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
