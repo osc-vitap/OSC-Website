@@ -1,6 +1,6 @@
 import React from "react";
 import TeamCard from "./TeamCard";
-import "./team21layout.css";
+import "./Team21_layout.css";
 
 import CC from "./../../../../images/team/profasish.jpg";
 import ph from "./../../../../images/team/ph.png";

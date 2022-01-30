@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+.photo-grid-container {
+    column-count: 5;
+    column-width: 200px;
+    column-gap: 10px;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 50px;
+}
+.photo-grid-item {
+    border-radius: 8px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    margin: 0 auto 12px;
+    width: 100%;
+}
