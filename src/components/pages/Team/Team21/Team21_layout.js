@@ -580,7 +580,7 @@ function Team21_layout() {
         <br />
 
         <div className="board-category5">
-          <div className="category-title">Human Resourses.</div>
+          <div className="category-title">Human Resources.</div>
         </div>
         <div className="tclContainer">
           <div className="Row">
