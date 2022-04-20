@@ -25,7 +25,7 @@ Applications and tools used can be deemed productive or not based on both user p
           
           
           "
-          githublink="https://github.com/Open-Source-Community-VIT-AP/oschub"
+          githublink="https://github.com/osc-vitap/oschub"
         />
       </div>
     </>
