@@ -82,31 +82,31 @@ function Footer() {
                 horizontal: "right",
               }}
             >
-            <Link to="/techcast">Tech Cast Series</Link>
+              <Link to="/techcast">Tech Cast Series</Link>
             </Badge>
-              <Link to={"//osc-hub.herokuapp.com/"} target="_blank">
-                OSCHub
-              </Link>
+            <Link to={"//osc-hub.herokuapp.com/"} target="_blank">
+              OSCHub
+            </Link>
           </div>
           <div className="footer-link-items">
             <h2>Programs</h2>
             <Link to={"//wsoc.oscvitap.org/"} target="_blank">
               Winter Season of Code &nbsp;
-            <Badge
-              badgeContent={"New"}
-              color="primary"
-              anchorOrigin={{
-                vertical: "middle",
-                horizontal: "right",
-              }}
-            >   
-               &nbsp; 
-            </Badge>
+              <Badge
+                badgeContent={"New"}
+                color="primary"
+                anchorOrigin={{
+                  vertical: "middle",
+                  horizontal: "right",
+                }}
+              >
+                &nbsp;
+              </Badge>
             </Link>
             <Link to={"//sfd.oscvitap.org/"} target="_blank">
               Software Freedom Day
             </Link>
-              <Link to={"/projects"}>Projects</Link>
+            <Link to={"/projects"}>Projects</Link>
           </div>
           <div className="footer-link-items">
             <h2>Chapter</h2>
@@ -168,7 +168,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to={"//discord.gg/2qXPW7NVvN"}
+              to={"//discord.gg/BXqm4PXq5p"}
               target="_blank"
               aria-label="Discord"
             >
