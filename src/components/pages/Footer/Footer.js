@@ -71,7 +71,7 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Events</h2>
-            <Link to={"//techeden2021.oscvitap.org/"} target="_blank">
+            <Link to={"//techeden.oscvitap.org/"} target="_blank">
               TechEden 2021
             </Link>
             <Badge
@@ -176,7 +176,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to={"//github.com/Open-Source-Community-VIT-AP/"}
+              to={"//github.com/osc-vitap"}
               target="_blank"
               aria-label="Github"
             >
