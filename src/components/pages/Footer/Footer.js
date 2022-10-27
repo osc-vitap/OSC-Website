@@ -72,7 +72,7 @@ function Footer() {
           <div className="footer-link-items">
             <h2>Events</h2>
             <Link to={"//techeden.oscvitap.org/"} target="_blank">
-              TechEden 2021
+              TechEden
             </Link>
             <Badge
               badgeContent={"New"}
@@ -131,7 +131,7 @@ function Footer() {
             </Link>
           </div>
           <small className="website-rights">
-            Open Source Community: VIT-AP © 2021
+            Open Source Community: VIT-AP © {new Date().getFullYear()}
           </small>
           <div className="social-icons">
             <Link
