@@ -1,0 +1,50 @@
+.teamCard{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    max-width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    width: 300px;
+}
+.teamCardImage{
+    border-radius:20px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    flex: 0.6;
+    
+}
+.teamCardImage img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0 ;
+    object-position: top;
+}
+.teamCardContent{
+    padding: 30px;
+}
+.teamCardIcons{
+    display: flex;
+    flex-direction: row;
+}
+
+.teamCardIcons a{
+    margin-right: 20px;
+    color: black;
+    background-color: white;
+    padding: 8px 10px 10px 10px;
+    border-radius: 50%;
+    transition: all 500ms;
+}
+.teamCardIcons a:hover{
+    color: white;
+    background-color:black;
+}
+.teamCardIcons a:last-child{
+    margin-right: 0px;
+}
+.hide{
+    display: none;
+}

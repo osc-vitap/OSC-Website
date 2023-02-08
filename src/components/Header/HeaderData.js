@@ -65,3 +65,6 @@ export const headerObjOne = {
 export const headerObjSeventeen = {
     headTitle: "EB 2021"
   };
+export const headerObjEighteen = {
+  headTitle: "EB 2022"
+};
