@@ -71,6 +71,15 @@ function Team22_layout() {
       github: "https://github.com/Aashish-Rout",
       description: "",
     },
+    {
+      image: tba,
+      name: "Sharath Harikumar",
+      role: "Treasurer",
+      mail: "mailto:harikumar.21bce8104@vitapstudent.ac.in",
+      linkedin: "",
+      github: "",
+      description: "",
+    },
     
     
   ];
