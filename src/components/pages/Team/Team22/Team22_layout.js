@@ -202,7 +202,7 @@ function Team22_layout() {
       name: "Soumyadip Chowdhuri",
       role: "Designer",
       mail: "mailto:soumyadip.21bec7099@vitapstudent.ac.in",
-      linkedin: "www.linkedin.com/in/soumyadip-chowdhuri-b8641b250",
+      linkedin: "https://www.linkedin.com/in/soumyadip-chowdhuri-b8641b250",
       github: "https://github.com/VulcanX-2003",
       description: "",
     },{
