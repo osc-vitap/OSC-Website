@@ -106,7 +106,7 @@ function Team22_layout() {
     {
       image: dev,
       name: "Chandra Kiran Reddy Avula",
-      role: "Dev Ops Lead",
+      role: "DevOps Lead",
       mail: "mailto:chandrakiran.21bce7814@vitapstudent.ac.in",
       linkedin: "https://www.linkedin.com/in/chandra-kiran-reddy-avula-69038a123/",
       github: "https://github.com/ackr-8",
@@ -196,6 +196,14 @@ function Team22_layout() {
       linkedin: "www.linkedin.com/in/soumyadip-chowdhuri-b8641b250",
       github: "https://github.com/VulcanX-2003",
       description: "",
+    },{
+      image: tba,
+      name: "Isa Hassan",
+      role: "Designer",
+      mail: "mailto:isa.21bce7011@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/isa-hasan-59375a226/",
+      github: "",
+      description: "",
     },
     
   ];
@@ -266,63 +274,6 @@ function Team22_layout() {
     },
   ];
 
-  // const hr = [
-  //   {
-  //     image: ang,
-  //     name: "Angel Maria Stanley",
-  //     role: "HR Lead",
-  //     mail: "mailto:maria.21bce7363@vitapstudent.ac.in",
-  //     linkedin: "https://www.linkedin.com/in/angel-stanly-218a0893/",
-  //     github: "https://github.com/Maiden23",
-  //     description: "If you gonna cry here, you might as well cry in paris",
-  //   },
-  //   {
-  //     image: ana,
-  //     name: "Mohammed Anas Shakil Kazi",
-  //     role: "HR Manager",
-  //     mail: "mailto:shakil.21bce7917@vitapstudent.ac.in",
-  //     linkedin: "https://www.linkedin.com/in/anas-kazi-88a064216/",
-  //     github: "https://github.com/BlazingPh0enix",
-  //     description: "Wearing a MASK all the time...",
-  //   },
-  //   {
-  //     image: va,
-  //     name: "Dollu Vakuladevi",
-  //     role: "HR Manager",
-  //     mail: "mailto:vakuladevi.19bce7061@vitap.ac.in",
-  //     linkedin: "https://www.linkedin.com/in/varshita-dollu-a3b43a197/",
-  //     github: "https://github.com/varshita-web",
-  //     description: "Life is full of dhokebaaz people",
-  //   },
-  //   {
-  //     image: ak,
-  //     name: "Gudiseva Akhil",
-  //     role: "HR Manager",
-  //     mail: "mailto:akhil.21bba7006@vitap.ac.in",
-  //     linkedin: "https://www.linkedin.com/in/gudiseva-akhil-000825222/",
-  //     github: "https://github.com/AkhilGudiseva",
-  //     description: "I refuse your refusal",
-  //   },
-  //   {
-  //     image: ru,
-  //     name: "Ruchith Reddy",
-  //     role: "HR Co-ordinator",
-  //     mail: "mailto:ruchith.20bce7241@vitap.ac.in",
-  //     linkedin: "https://www.linkedin.com/in/ruchith-reddy-64ba6a22b/",
-  //     github: "https://github.com/Ruchith07",
-  //     description: "The best place to hide a dead body is the second page of Google search",
-  //   },
-  //   {
-  //     image: ms,
-  //     name: "M S Shreya",
-  //     role: "HR Co-ordinator",
-  //     mail: "mailto:shreya.21bce7228@vitapstudent.ac.in",
-  //     linkedin: "https://www.linkedin.com/in/shreya-m-s-1a0425220/",
-  //     github: "https://github.com/Shreya110204",
-  //     description: "My very Existence sucks",
-  //   },
-  // ];
-  
   return (
     <React.Fragment>
       <section>
@@ -440,24 +391,7 @@ function Team22_layout() {
         <br />
         <br />
 
-        {/* <div className="board-category5">
-          <div className="category-title">Human Resources.</div>
-        </div>
-        <div className="tclContainer">
-          <div className="Row">
-            {hr.map((i) => (
-              <TeamCard
-                image={i.image}
-                name={i.name}
-                role={i.role}
-                mail={i.mail}
-                linkedin={i.linkedin}
-                github={i.github}
-                description={i.description}
-              />
-            ))}
-          </div>
-        </div> */}
+        
       </section>
     </React.Fragment>
   );
