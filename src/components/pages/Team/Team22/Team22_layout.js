@@ -163,7 +163,7 @@ function Team22_layout() {
   const creative = [
     {
       image: crl,
-      name: "Pooja Choudhury",
+      name: "Pooja",
       role: "Creative Lead",
       mail: "mailto:pooja.20bce7630@vitap.ac.in",
       linkedin: "https://www.linkedin.com/in/pooja-chowdhary-15501022b/",
