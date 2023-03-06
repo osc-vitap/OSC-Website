@@ -237,7 +237,7 @@ function Team23_layout() {
       name: "Saurabh Hemant Patil",
       role: "Designer",
       mail: "mailto:saurabh.22bec7136@vitapstudent.ac.in",
-      linkedin: "www.linkedin.com/in/saurabh-patil-17a457260",
+      linkedin: "https://www.linkedin.com/in/saurabh-patil-17a457260",
       github: "https://github.com/Saurxbh21",
       description: "",
     },
