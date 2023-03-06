@@ -7,6 +7,10 @@ function Card() {
     return (
         <div className="teams-general-container">
             <div className="teams-general-box">
+                <h2 className="teams-general-title">Executive Board 2023</h2>
+                <Link to="/team2023"><h2 className="teams-general-subtitle">Explore&gt;</h2></Link>
+            </div>
+            <div className="teams-general-box">
                 <h2 className="teams-general-title">Executive Board 2022</h2>
                 <Link to="/team2022"><h2 className="teams-general-subtitle">Explore&gt;</h2></Link>
             </div>
