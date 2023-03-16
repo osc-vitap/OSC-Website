@@ -11,7 +11,7 @@ import cp1 from "./../../../../images/team/eb23/Akhil_chairperson.jpg";
 import cp2 from "./../../../../images/team/eb23/Pooja_Chairperson.jpg";
 import vp1 from "./../../../../images/team/eb23/dhruv_VP.jfif";
 import vp2 from "./../../../../images/team/eb23/AVULA_chandra_kiran_VP.jpg";
-import hpr from "./../../../../images/team/eb21/tba.webp";
+import hpr from "./../../../../images/team/eb23/ashish.jpeg";
 import tr from "./../../../../images/team/eb21/tba.webp";
 import tl from "./../../../../images/team/eb23/Aryan_TechLead.jpg";
 import trl from "./../../../../images/team/eb23/avinash_TrackLead.jpg";
@@ -124,9 +124,9 @@ function Team23_layout() {
       image: tl,
       name: "Aryan Mohanty",
       role: "Technical Lead",
-      mail: "mailto:akhilesh.20bce7602@vitap.ac.in",
-      linkedin: "https://www.linkedin.com/in/akhilcodes",
-      github: "https://github.com/officialakhil",
+      mail: "mailto:aryan.21bce8377@vitapstudent.ac.in",
+      linkedin: "https://www.linkedin.com/in/aryan-mohanty-230160221/",
+      github: "https://GitHub.com/AryanVIT",
       description: "",
     },
     {
