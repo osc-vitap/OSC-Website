@@ -8,7 +8,7 @@ import cl from "./../../../../images/team/eb22/RahulAllokan_Community_lead.jpg";
 import pr from "./../../../../images/team/eb22/Ojasva_President.jpeg";
 import dr from "./../../../../images/team/eb22/SaiPranay_director.jpg";
 import sec from "./../../../../images/team/eb22/dhruv_Secretary.jfif";
-import hpr from "./../../../../images/team/eb21/tba.webp";
+import hpr from "./../../../../images/team/eb23/ashish.jpeg";
 import tl from "./../../../../images/team/eb23/Akhil_chairperson.jpg";
 import trl from "./../../../../images/team/eb22/Aryan_TrackLead.jpg";
 import d1 from "./../../../../images/team/eb22/Loukya_Developer.jpeg";
