@@ -8,20 +8,21 @@ import cl from "./../../../../images/team/eb22/RahulAllokan_Community_lead.jpg";
 import pr from "./../../../../images/team/eb22/Ojasva_President.jpeg";
 import dr from "./../../../../images/team/eb22/SaiPranay_director.jpg";
 import sec from "./../../../../images/team/eb22/dhruv_Secretary.jfif";
-import hpr from "./../../../../images/team/eb21/tba.webp";
-import tl from "./../../../../images/team/eb21/tba.webp";
+import hpr from "./../../../../images/team/eb23/ashish.jpeg";
+import tl from "./../../../../images/team/eb23/Akhil_chairperson.jpg";
 import trl from "./../../../../images/team/eb22/Aryan_TrackLead.jpg";
 import d1 from "./../../../../images/team/eb22/Loukya_Developer.jpeg";
 import dev from "./../../../../images/team/eb22/AVULA_chandra_kiran_devops.jpg";
 import d2 from "./../../../../images/team/eb22/Jai_Developer.png";
 import d3 from "./../../../../images/team/eb22/avinash_developer.jpg";
-import d4 from "./../../../../images/team/eb21/tba.webp";
+import d4 from "./../../../../images/team/eb23/R_HARI_CHANDANA_Developer.jpeg";
 import d5 from "./../../../../images/team/eb21/tba.webp";
 import crl from "./../../../../images/team/eb22/Pooja_Designer.jpg";
 import ed from "./../../../../images/team/eb21/tba.webp";
 import vid from "./../../../../images/team/eb22/Apoorva_Videography.jpeg";
 import de1 from "./../../../../images/team/eb21/tba.webp";
 import de2 from "./../../../../images/team/eb22/soumyadip_designer.jpeg";
+import de3 from "./../../../../images/team/eb23/ISA_HASAN_CreativeLead.jpeg";
 import el from "./../../../../images/team/eb22/eeshwar_eventlead.jpg";
 import or1 from "./../../../../images/team/eb22/anas_organizer.jpg";
 import or2 from "./../../../../images/team/eb22/aleshita_organizer.jpeg";
@@ -206,7 +207,7 @@ function Team22_layout() {
       github: "https://github.com/VulcanX-2003",
       description: "",
     },{
-      image: tba,
+      image: de3,
       name: "Isa Hassan",
       role: "Designer",
       mail: "mailto:isa.21bce7011@vitapstudent.ac.in",

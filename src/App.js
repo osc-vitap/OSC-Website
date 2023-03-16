@@ -12,6 +12,7 @@ import Team19 from "./components/pages/Team/Team19";
 import Team20 from "./components/pages/Team/Team20";
 import Team21 from "./components/pages/Team/Team21";
 import Team22 from "./components/pages/Team/Team22";
+import Team23 from "./components/pages/Team/Team23";
 import TeamWIOS from './components/pages/Team/TeamWIOS';
 import Testimonials from './components/pages/Testimonials/Testimonials';
 import EBOpenings from './components/pages/EBOpenings/EBOpenings';
@@ -39,6 +40,8 @@ function App() {
         <Route path="/team2020" exact component={Team20}/>
         <Route path="/team2021" exact component={Team21}/>
         <Route path="/team2022" exact component={Team22}/>
+        <Route path="/team2022" exact component={Team22}/>
+        <Route path="/team2023" exact component={Team23}/>
         <Route path="/wiosteam2020" exact component={TeamWIOS}/>
         <Route path="/testimonials" exact component={Testimonials}/>
         <Route path="/ebopenings" exact component={EBOpenings}/>
