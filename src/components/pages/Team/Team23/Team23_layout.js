@@ -16,7 +16,7 @@ import tr from "./../../../../images/team/eb21/tba.webp";
 import tl from "./../../../../images/team/eb23/Aryan_TechLead.jpg";
 import trl from "./../../../../images/team/eb23/avinash_TrackLead.jpg";
 import d1 from "./../../../../images/team/eb22/Loukya_Developer.jpeg";
-import d2 from "./../../../../images/team/eb22/Jai_Developer.png";
+import d2 from "./../../../../images/team/eb23/jai_developer.jpeg";
 import d3 from "./../../../../images/team/eb23/R_HARI_CHANDANA_Developer.jpeg";
 import d4 from "./../../../../images/team/eb23/Vishnu_Gamini_Developer.png";
 import d5 from "./../../../../images/team/eb23/Abhineet_Saha_Developer.png";
@@ -35,7 +35,7 @@ import or1 from "./../../../../images/team/eb22/aleshita_organizer.jpeg";
 import or2 from "./../../../../images/team/eb22/varshitha_organizer.jpg";
 import or3 from "./../../../../images/team/eb22/nishita_organizer.jpeg";
 import or4 from "./../../../../images/team/eb23/ADITYA_organizer.jpg";
-import or5 from "./../../../../images/team/eb21/tba.webp";
+import or5 from "./../../../../images/team/eb23/ANUSHNA_event.jpg";
 import or6 from "./../../../../images/team/eb23/Kartikeya_Gorantla_organizer.jpg";
 
 import tba from "./../../../../images/team/eb21/tba.webp";
@@ -333,8 +333,8 @@ function Team23_layout() {
       name: "Tanniru Anushna ",
       role: "Organizer",
       mail: "mailto:anushna.22bce8890@vitapstudent.ac.in",
-      linkedin: "",
-      github: "",
+      linkedin: "https://www.linkedin.com/in/anushna-tanniru-6a7544251",
+      github: "https://github.com/Anushna206",
       description: "",
     },
     {
