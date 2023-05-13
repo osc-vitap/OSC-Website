@@ -1,17 +1,19 @@
+import React, { useEffect } from "react";
 import Header from "../../Header/Header";
 import { headerObjOne } from "../../Header/HeaderData";
 import axios from "axios";
-import LoadAnimation from "./LoadAnimation";
-import PEvent from "./PEvent";
-import Event from "./Event";
+import LoadAnimation from "./../../LoadAnimation";
+import PEvent from "./../../PEvent";
+import Event from "./../../Event";
+import pic1 from "./../../../images/team/eb23/dhruv_VP.jfif"
 
 const data = [
     {
-        eventLogo: "./../../../images/events/",
-        eventName: "",
-        eventCaption: "",
-        eventDate: "DD-MM-YYYY",
-        eventStartTime: "",
+        eventLogo: pic1,
+        eventName: "chutiya",
+        eventCaption: "talented peeps",
+        eventDate: "16-05-2023",
+        eventStartTime: "9:10 AM",
     }
 ]
 
