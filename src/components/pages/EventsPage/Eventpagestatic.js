@@ -1,36 +1,35 @@
 import React, { useEffect } from "react";
 import Header from "../../Header/Header";
 import { headerObjOne } from "../../Header/HeaderData";
-import axios from "axios";
 import LoadAnimation from "./../../LoadAnimation";
 import PEvent from "./../../PEvent";
 import Event from "./../../Event";
-import pic1 from "./../../../images/team/eb23/dhruv_VP.jfif"
+import pic1 from "./../../../images/team/eb23/ADITYA_organizer.jpg"
+import "./Eventpagestatic.css";
 
 const data = [
     {
         eventLogo: pic1,
         eventName: "chutiya",
         eventCaption: "talented peeps",
-        eventDate: "16-05-2023",
-        eventStartTime: "9:10 AM",
+        eventDate: "Sun May 13 2023 00:30:57 GMT+0530 (India Standard Time)",
+        eventStartTime: "9:10",
     }
 ]
 
 function EventList () {
-    const [events, setEvents] = React.useState([])
     const [loading, setLoading] = React.useState(true)
 
     useEffect(() => {
-        setEvents(data);
         setLoading(false);
     })
 
     function noUpcomingEvents() {
         let today = new Date()
-        let upcomingEvents = events.filter((event) => {
+        let upcomingEvents = data.filter((event) => {
           let eventDate = new Date(event.eventDate)
-          console.log(eventDate)
+          console.log(eventDate.getTime())
+          console.log(today)
           return (
             eventDate.getTime() > today.getTime()
           )
@@ -51,7 +50,7 @@ function EventList () {
                                 There are currently no upcoming events. Stay tuned!
                             </h4>
                         ) : (
-                            events.map((event) => <Event event={event} />)
+                            data.map((event) => <Event event={event} />)
                         )}
                     </div>
                 )}
@@ -62,7 +61,7 @@ function EventList () {
                     <LoadAnimation />
                 ) : (
                     <div className="events">
-                        {events.map((event) => (
+                        {data.map((event) => (
                             <PEvent event={event} />
                         ))}
                     </div>
