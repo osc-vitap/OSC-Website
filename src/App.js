@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from "./ScrollToTop";
 import Home from './components/pages/HomePage/Home';
 import Footer from './components/pages/Footer/Footer';
-import Events from './components/pages/EventsPage/Events';
+import Events from './components/pages/EventsPage/Eventpagestatic.js';
 import AboutPage from "./components/pages/About/AboutPage";
 import TeamPage from "./components/pages/Team/Team";
 import Team18 from "./components/pages/Team/Team18";
