@@ -59,7 +59,7 @@ const data = [
     {
         eventLogo: pic7,
         eventName: "Software Freedom Fest (SFF)",
-        eventCaption: "TechCast, OSC's online guest lecture series, transported students into the minds of industry experts, enriching their knowledge and inspiring innovation.",
+        eventCaption: "OSC brings you Software Freedom Fest to celebrate and promote the power of open source technology.",
         eventDate: "Sat May 27 2023 10:00: GMT+0530 (India Standard Time)",
         eventStartTime: "10:00",
     }
