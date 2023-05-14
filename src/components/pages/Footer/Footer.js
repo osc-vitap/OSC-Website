@@ -74,19 +74,7 @@ function Footer() {
             <Link to={"//techeden.oscvitap.org/"} target="_blank">
               TechEden
             </Link>
-            <Badge
-              badgeContent={"New"}
-              color="primary"
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "right",
-              }}
-            >
-              <Link to="/techcast">Tech Cast Series</Link>
-            </Badge>
-            <Link to={"//osc-hub.herokuapp.com/"} target="_blank">
-              OSCHub
-            </Link>
+            <Link to="/techcast">Tech Cast Series</Link>
           </div>
           <div className="footer-link-items">
             <h2>Programs</h2>

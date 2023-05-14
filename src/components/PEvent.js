@@ -67,7 +67,7 @@ function Event({ event }) {
                 </p>
               </span>
               
-              <a href={"https://osc-hub.herokuapp.com/eventreg/event/"+event.id} target="_" className="event_button">Know more</a>
+              {/* <a href={"https://osc-hub.herokuapp.com/eventreg/event/"+event.id} target="_" className="event_button">Know more</a> */}
             </div>
           </div>
         </div>
