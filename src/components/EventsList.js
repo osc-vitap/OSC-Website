@@ -6,7 +6,7 @@ import "./EventsList.css";
 import LoadAnimation from "./LoadAnimation";
 
 const api = axios.create({
-  baseURL: `https://osc-api.herokuapp.com/api/v1`,
+  baseURL: `https://127.0.0.1:5000/api/`,
 });
 
 function EventsList() {
@@ -23,7 +23,7 @@ function EventsList() {
       .catch((err, res) => {
         console.log(err);
       });
-  }, []);
+  }, []); 
 
   function noUpcomingEvents() {
     let today = new Date();

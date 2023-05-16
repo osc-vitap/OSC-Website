@@ -75,7 +75,7 @@ function Event({ event }) {
                   {tConvert(event.eventStartTime)}
                 </p>
               </span>
-              <a
+              {/* <a
                 href={
                   "https://osc-hub.herokuapp.com/eventreg/event/" + event.id
                 }
@@ -83,7 +83,7 @@ function Event({ event }) {
                 className="event_button"
               >
                 Know more
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
